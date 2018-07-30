@@ -1,0 +1,41 @@
+{
+  "name": "Herding",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~27.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "AsyncStorage": "^0.1.5",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
+    "react-native-ble-manager": "^6.4.0",
+    "react-native-ble-plx": "^0.9.2",
+    "react-native-chart-kit": "^1.1.4",
+    "react-native-fetch": "^2.0.0",
+    "react-native-google-maps-directions": "^2.0.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-progress": "^3.5.0",
+    "react-native-svg": "^6.4.1",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.6.2"
+  }
+}

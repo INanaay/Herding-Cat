@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_pause.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_play.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_next.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_fastforward.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_previous.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/devRemoteKernel/debug/drawable-ldpi-v4/exo_controls_rewind.png",
+        "source": "/home/NANAA/.android/build-cache/f72a28f71f1a015f2c19d94f533d7d3882b83dc1/output/res/drawable-ldpi-v4/exo_controls_rewind.png"
+    }
+]

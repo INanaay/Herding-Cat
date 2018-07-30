@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/xml/stub_material.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/xml/stub_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/xml/global_tracker.xml",
+        "source": "/home/NANAA/Missions/Herding/android/app/build/generated/res/google-services/dev19/debug/xml/global_tracker.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/xml/stub_classic.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/xml/stub_classic.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/xml/provider_paths.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/xml/preferences.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/xml/preferences.xml"
+    }
+]

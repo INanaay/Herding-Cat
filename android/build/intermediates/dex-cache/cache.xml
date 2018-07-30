@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okio-1.13.0_44284f1513157935212faedbd7dcab8749174fd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="672f2a2eb9d2bb9bea5e537f64541e340d62d503">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/4/classes_b0b111ae42e9b17e63e87fd9579a684ef821cb3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_46f24e25f18843441548232f0d98a801997bfd2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-27.1.0_cc0379e1f935a1926a4ba40e3eeaaf058653fd21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/69fb681aa1418f764954b091ff9cef1d0f980f26/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="418dca1ee8bac0cc2f78f8f34b594c4d89eec057">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_5228de981027a6ad546bea7f94499a57512b40bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_815c37b3dc27b3f8eb87ff63d983084d4cfed00b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.3/e0111e00758a8f6cae3dae658299d049e05aa30/rxjava-1.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0e0111e00758a8f6cae3dae658299d049e05aa30">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/rxjava-1.3.3_c58a008efe082b5b1686db1ca16bd220cb6cc801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea01f90e60978bc6871543cd76136a97a19450b5">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_198ae827eaa5d283ecead24e8644875d275fa43a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/app/build/intermediates/incremental-classes/dev19/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b75b5cf9200bd3a410d295ce1580b1e45f68a0ad">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_38979e549f4d1beb4a1a2c203cab99e787672efa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okhttp-3.6.0_edb33cf4da8d94f8e6f9336ccab124a0f1ef6d67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_e89253cc64fb5f065a6107d2a9ae9fcf1ec3fcd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67b6fa134bb2e2163e293f7ae9b898b985979515">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_c30d8905e3b21b0b2d4af3e1bfa4d52b350ff7f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/app/build/intermediates/incremental-runtime-classes/dev19/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_9f3e94d017fa710249f63a693c3f75a559245417/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_d361908b363db6d9849dd6c57aa57051fefd3f83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_f2706a210e02c8941da81752db9a0d1f37474279/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_6024b6d9919dd74028eebbe3d157b5eb44733b8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="64cd9f68288a814c311fe2723b68bd91aa241c7b">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_1d585cb1464fe70462aca3d46ee79106964cbc0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="00bffcece869fcc14f8c3fe523a11c6c53356b44">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_0f315d60bdea642718326bee171a7230d575ff89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-plx/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="579e28b3e2fe3a46a13977ae82a94af9d63f5c50">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/4/classes_652a97a062cccfaca55ccf43fd30b4f71832a522/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/3161b3d8cb1e72321238c40d572c9c49e0dc715a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a19d1e469f6c63b79a4317500c533435798e22d5">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_79f63a922f3beb08842686ad4401412d5f13117b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_f8718f64149d6504e60e186580437806a408d1bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.polidea.rxandroidble/dagger-library-shadow/1.6.0/5404e66d9d682eb77f1bb24a35605387e68a1c4b/dagger-library-shadow-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5404e66d9d682eb77f1bb24a35605387e68a1c4b">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/dagger-library-shadow-1.6.0_bde5f76f29af22af045f69b8dc38a85e6e00778d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/a6f5dc3bce413ceaf689c94821bbb79e7b953c29/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fc1b8c760cdedc005fb8408f2a8ffdb09945225b">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_311e3f872b19cd10db96b4d8de7e76b1cb2b9410/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7721fdd1d59c4b8ae136c087b7590ec69061d97f">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_c34aad63c9ac74105bc03752551bb6b945028362/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxrelay/rxrelay/1.2.0/a53b8b8ef1a5ec8ff75afca24fc689b71892b44f/rxrelay-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a53b8b8ef1a5ec8ff75afca24fc689b71892b44f">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/rxrelay-1.2.0_2fb562e0dff9e90390a84ef8b056561dd4a244f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_674529bac00e28cc0c42e1c3237e5ccb97c7e478/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_6ff355f584fbef76fb03981977518c5665703232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/69fb681aa1418f764954b091ff9cef1d0f980f26/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_be88d2e649dbcdd6653a686d6f85e0d7e7ac8758/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okhttp-urlconnection-3.6.0_231a41b06013336bce64f12c243e4d328d11a993/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_58a3d6667a5c106bfe407fce938f503cfbc57bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae335c9696bc1513f7e3bb96a731b722712d7a63">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_ada3990111288169217c055b823f01e55103f318/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1651d7e5e17e7b6d98c4fc65318298c693c43940/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_0dd2fef553ff77794a8c59998096970a153a422f/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_fade_in.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/tooltip_enter.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_popup_exit.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_slide_down.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/fade_in.xml",
+        "source": "/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/fade_out.xml",
+        "source": "/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_push_up_out.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_fade_out.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_push_up_in.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/slide_up.xml",
+        "source": "/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_slide_up.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_popup_enter.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/tooltip_exit.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/slide_down.xml",
+        "source": "/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/catalyst_fade_out.xml",
+        "source": "/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_fade_in.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/cycle.xml",
+        "source": "/home/NANAA/.android/build-cache/7b35eefcca99626e095479a5a425216ebb2e556f/output/res/anim/cycle.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/shake.xml",
+        "source": "/home/NANAA/.android/build-cache/7b35eefcca99626e095479a5a425216ebb2e556f/output/res/anim/shake.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/anim/abc_slide_out_top.xml"
+    }
+]

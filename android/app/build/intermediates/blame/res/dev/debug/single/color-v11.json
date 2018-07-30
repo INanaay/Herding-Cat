@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

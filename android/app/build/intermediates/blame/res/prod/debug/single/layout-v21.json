@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/layout-v21/notification_action.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

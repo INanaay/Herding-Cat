@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Herding",
+    "icon": "./icon.png",
+    "version": "1.0.0",
+    "slug": "herding-slug",
+    "sdkVersion": "27.0.0",
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.3-sdk27.0.0-408c8d77-8d1f-4784-b7b4-93826250663a.tar.gz"
+    },
+    "scheme": "expb80123a0ad6b45c49e35d3697d660ed1",
+    "android": {
+      "package": "com.poc.herding",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}

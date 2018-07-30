@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/spinner_background_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/spinner_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/NANAA/.android/build-cache/fdb629f6e8e07129e4007ed666307ef1be7a44dc/output/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/card_512.png",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/card_512.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/home/NANAA/.android/build-cache/5805e33b67fde08ce4f8959e25b7482e757ea7ac/output/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/notification_bg.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_vector_test.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/NANAA/.android/build-cache/5805e33b67fde08ce4f8959e25b7482e757ea7ac/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/home/NANAA/.android/build-cache/fdb629f6e8e07129e4007ed666307ef1be7a44dc/output/res/drawable/com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/edit_text_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/edit_text_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/background_white.xml",
+        "source": "/home/NANAA/.android/build-cache/7b35eefcca99626e095479a5a425216ebb2e556f/output/res/drawable/background_white.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/card_input_custom_background.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/card_input_custom_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/header_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/header_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/notification_icon_background.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/NANAA/.android/build-cache/117f7cb353aa381129a42b63f00d10bf7e254a2e/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/splash_background.xml",
+        "source": "/home/NANAA/Missions/Herding/android/app/src/main/res/drawable/splash_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/NANAA/.android/build-cache/117f7cb353aa381129a42b63f00d10bf7e254a2e/output/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/home/NANAA/.android/build-cache/5805e33b67fde08ce4f8959e25b7482e757ea7ac/output/res/drawable/com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/NANAA/.android/build-cache/117f7cb353aa381129a42b63f00d10bf7e254a2e/output/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/tooltip_frame_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/stp_card_form_back.png",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/stp_card_form_back.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable/com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/home/NANAA/.android/build-cache/117f7cb353aa381129a42b63f00d10bf7e254a2e/output/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/notification_bg_low.xml",
+        "source": "/home/NANAA/.android/build-cache/9bd18cd7df981cfd320803a59b406b88313ba4e6/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/crop_image_menu_crop_stub.xml",
+        "source": "/home/NANAA/.android/build-cache/88b04acb41be21b2668fe94bd27b99d644d16f1a/output/res/drawable/crop_image_menu_crop_stub.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/stp_card_form_front.png",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/stp_card_form_front.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/btn_default_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/btn_default_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/loading_status_bar_background.xml",
+        "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable/loading_status_bar_background.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/prod/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_go_search_api_material.xml"
+    }
+]
