@@ -16,6 +16,11 @@
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />
   <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+  <permission      android:name="com.shop.shoppinglist.permission.MAPS_RECEIVE"
+      android:protectionLevel="signature"/>
+  <uses-permission android:name="com.shop.addtask.permission.MAPS_RECEIVE"/>
+  <uses-permission
+      android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
 
   <!-- ADD PERMISSIONS HERE -->
   <!-- BEGIN OPTIONAL PERMISSIONS -->
@@ -29,7 +34,7 @@
   <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
   <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
-  <!-- These require runtime permissions on M -->
+  <!-- These require r  untime permissions on M -->
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.CAMERA" />
@@ -254,12 +259,13 @@
       android:name="io.fabric.ApiKey"
       android:value="a25fafe9f9edee11a9882b32e0cd7a26df6e2c42"/>
     <!-- END FABRIC CONFIG -->
-
+  
     <!-- ADD GOOGLE MAPS CONFIG HERE -->
     <!-- BEGIN GOOGLE MAPS CONFIG -->
+
     <meta-data
-      android:name="com.google.android.geo.API_KEY"
-      android:value="AIzaSyCPyKmt6in3JwAsogYikNNjor8qgU9stRQ"/>
+        android:name="com.google.android.geo.API_KEY"
+        android:value="x"/>
     <!-- END GOOGLE MAPS CONFIG -->
 
     <!-- ADD BRANCH CONFIG HERE -->

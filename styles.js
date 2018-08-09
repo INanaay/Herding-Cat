@@ -6,7 +6,7 @@ import {Dimensions} from "react-native";
 const backgroundColor = '#434343';
 const fontColor = '#FFF'
 const transparent = 'rgba(52, 52, 52, 0.0)'
-const secondaryColor = '#159552'
+const secondaryColor = '#35C5A5'
 const graphBackgroundColor = '#717171'
 
 /* ----- STUFF ----- */

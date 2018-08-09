@@ -1,22 +1,35 @@
 import React from 'react'
-import {StyleSheet, View} from 'react-native'
+import {StyleSheet, View, Image} from 'react-native'
 import MapView from 'react-native-maps'
 import Header from './Header'
 import globalStyle from '../../styles'
 
+
 const markers = [
     {
-        latitude: 48.814808,
-        longitude: 2.36302,
+        latitude: 48.8151371,
+        longitude: 2.3617839,
     },
     {
-        latitude: 48.36343,
-        longitude: 2.36450
+        latitude: 48.8142918,
+        longitude: 2.3602696,
     }
 ]
 
-
 export default class BasicMap extends React.Component {
+
+
+    placeMapMarker(markerIndex){
+        return (
+            <MapView.Marker
+                coordinate={markers[markerIndex]}>
+                <Image
+                    source={require('/home/NANAA/Missions/Herding/Resources/Icons/pin_vert.png')}
+                    style={styles.marker}
+                />
+            </MapView.Marker>
+        )
+    }
 
     render() {
 
@@ -26,13 +39,23 @@ export default class BasicMap extends React.Component {
                 />
                 <View style={styles.container}>
                     <MapView style={styles.map}
-                             region={{
+                             initialRegion={{
                                  latitude: 48.814808,
                                  longitude: 2.36302,
-                                 longitudeDelta: 0.01,
-                                 latitudeDelta: 0.01
+                                 longitudeDelta: 0.003,
+                                 latitudeDelta: 0.003
                              }}>
-                        <MapView.Marker coordinate={markers[0]}/>
+                        <MapView.Polyline
+                            coordinates={markers}
+                            strokeWidth={3}
+                            strokeColor={globalStyle.secondaryColor}
+                        />
+                        <MapView.Marker
+                            coordinate={markers[0]}>
+                        </MapView.Marker>
+                        <MapView.Marker
+                            coordinate={markers[1]}>
+                        </MapView.Marker>
                     </MapView>
                 </View>
             </View>
@@ -48,8 +71,7 @@ const styles = StyleSheet.create ({
         marginRight: '10%',
         overflow: 'hidden',
         borderRadius: 10,
-        marginBottom: 40
-
+        marginBottom: 40,
 
     },
     map: {
@@ -58,5 +80,9 @@ const styles = StyleSheet.create ({
         left: 0,
         bottom: 0,
         right: 0,
+    },
+    marker: {
+        width: 30,
+        height: 30
     }
 })

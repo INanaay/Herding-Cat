@@ -1,5 +1,5 @@
 import React from 'react'
-import {ImageBackground, Text, StyleSheet, Dimensions, View} from 'react-native'
+import {ImageBackground, Text, StyleSheet, View, TouchableOpacity, Image} from 'react-native'
 import globalStyle from '../../styles'
 import { LinearGradient } from 'expo';
 
@@ -15,9 +15,6 @@ export default class ProfilePicture extends React.Component {
     }
 
     render() {
-
-        const win = Dimensions.get('window')
-
         return (
             <View style={[style.container, globalStyle.dashboardBorder]}>
                 <ImageBackground source={require('../..//Resources/Images/HectorPP.png')} style={style.image}>
@@ -31,7 +28,12 @@ export default class ProfilePicture extends React.Component {
                             height: 80,
                         }}
                     />
+                    <View style={style.contentContainer}>
                     {this.showCatName()}
+                    <TouchableOpacity>
+                        <Image source={require('../../Resources/Icons/geolocalisation.png')} style={{width: 30, height: 30}}/>
+                    </TouchableOpacity>
+                    </View>
                 </ImageBackground>
 
             </View>
@@ -59,17 +61,11 @@ const style = StyleSheet.create({
         fontSize: 22,
         color: '#FFF',
         fontWeight: 'bold',
-        position : 'absolute',
-        bottom: 0
-
     },
     contentContainer: {
-        flex : 1,
-        paddingTop: 50,
-        paddingHorizontal: 20,
-        paddingVertical: 20,
-        overflow:'visible',
-        alignItems: 'center',
-        alignSelf: 'stretch',
+        width: '100%', position : 'absolute', flexDirection: 'row',
+        bottom: 0,  justifyContent: 'center',
+        alignItems: 'center'
     },
+
 })

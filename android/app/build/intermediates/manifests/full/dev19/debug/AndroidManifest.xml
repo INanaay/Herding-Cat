@@ -24,6 +24,13 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <permission
+        android:name="com.shop.shoppinglist.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.shop.addtask.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
     <!-- ADD PERMISSIONS HERE -->
     <!-- BEGIN OPTIONAL PERMISSIONS -->
     <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
@@ -37,7 +44,7 @@
 
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <!-- These require runtime permissions on M -->
+    <!-- These require r  untime permissions on M -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -108,7 +115,6 @@
     <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- for apex -->
     <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
     <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 
     <application
@@ -313,9 +319,10 @@
 
         <!-- ADD GOOGLE MAPS CONFIG HERE -->
         <!-- BEGIN GOOGLE MAPS CONFIG -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCPyKmt6in3JwAsogYikNNjor8qgU9stRQ" />
+            android:value="x" />
         <!-- END GOOGLE MAPS CONFIG -->
 
 

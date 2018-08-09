@@ -2,40 +2,23 @@ import React from 'react'
 import {Text, View, StyleSheet, Image} from 'react-native'
 import Icon from '@expo/vector-icons/FontAwesome'
 import globalStyle from "../../styles";
-
-/*
-<Icon.Button
-    style={{position:'absolute'}}
-    name="chevron-thin-right"
-    backgroundColor={globalStyle.transparent}
-    color={globalStyle.secondaryColor}
-    onPress={() => this.props.navigation.goBack()}>
-</Icon.Button>*/
-
-/*
-<Text style={styles.title}> Global {this.props.title}</Text>
-*/
-
-
-/*
-<Image
-    style={styles.image}
-    source={require('../..//Resources/Images/HectorPP.png')}/>
-    */
-
+import { NavigationActions } from 'react-navigation'
 
 export default class Header extends React.Component {
 
     render(){
         return (
+            <View>
+
             <View style={globalStyle.activityHeaderBorder}>
+
             <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between', }}>
                 <View style={{height: 20}}>
                     <Icon.Button
                         name="arrow-left"
                         backgroundColor={globalStyle.transparent}
                         color={globalStyle.fontColor}
-                        onPress={() => this.props.navigation.goBack()}>
+                        onPress={() => this.props.navigation.dispatch(NavigationActions.back())}>
                     </Icon.Button>
                 </View>
                 <View style={{ flex: 1}}>
@@ -44,11 +27,13 @@ export default class Header extends React.Component {
                 </View>
                 <View style={{width: '10%'}}/>
                 <View style={styles.imageContainer}>
-                    <Image
-                        style={styles.image}
-                        source={require('../..//Resources/Images/HectorPP.png')}/>
+
                 </View>
             </View>
+            </View>
+                <Image
+                    style={styles.image}
+                    source={require('../..//Resources/Images/HectorPP.png')}/>
             </View>
         )
     }
@@ -73,6 +58,9 @@ const styles =  StyleSheet.create ({
     image: {
         width: 120,
         height: 120,
-        borderRadius: 50,
+        borderRadius: 100,
+        position: 'absolute',
+        alignSelf: 'center',
+        top: '30%'
 }
 })

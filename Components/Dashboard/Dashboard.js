@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, ScrollView, ActivityIndicator} from 'react-native'
+import {View, ScrollView, StyleSheet, Text, TouchableOpacity} from 'react-native'
 import ProfilePicture from './ProfilePicture'
 import globalStyle from '../../styles'
 import BasicInfo from "./BasicInfo";
@@ -11,20 +11,71 @@ import BasicMeetings from './BasicMeetings'
 import BasicWeight from "./BasicWeight";
 import BasicSpeed from "./BasicSpeed";
 import BasicSleep from "./BasicSleep";
-import HistoricActivity from "../Activities/Activity/HistoricActivity";
 import MeetingsActivity from '../Activities/Meetings/MeetingsActivity'
 import MapActivity from "../Activities/Map/MapActivity"
-import { BleManager } from 'react-native-ble-plx';
+import BleManager from 'react-native-ble-manager';
 import SleepActivity from "../Activities/Sleep/SleepActivity";
 import ActivityActivity from "../Activities/Activity/ActivityActivity";
-
+import RoundMenu from './RoundMenu/RoundMenu'
+import Tips from "./RoundMenu/Tips";
+import { stringToBytes } from 'convert-string';
+import Buffer from 'buffer'
 
 const catName='Hector'
+const id="88:3F:4A:DF:B4:81"
 
 class DashboardView extends React.Component {
 
     constructor(props) {
         super(props)
+
+
+        BleManager.start({showAlert: false})
+            .then(() => {
+                // Success code
+                console.log('Module initialized');
+                BleManager.connect(id)
+                    .then(() => {
+                        BleManager.retrieveServices(id)
+                            .then((peripheralInfo) => {
+                                // Success code
+                                console.log('Peripheral info:', peripheralInfo);
+                                const data = stringToBytes("Yo");
+                                BleManager.write(id, 'FFE0', 'FFE1', data)
+                                    .then(() => {
+                                        // Success code
+                                        console.log('Write: ' + data);
+                                        BleManager.read(id, 'FFE0', 'FFE1')
+                                            .then((readData) => {
+                                                // Success code
+                                                console.log('Read: ' + readData);
+
+                                                const buffer = Buffer.Buffer.from(readData);    //https://github.com/feross/buffer#convert-arraybuffer-to-buffer
+                                            })
+                                            .catch((error) => {
+                                                // Failure code
+                                                console.log(error);
+                                            });
+                                    })
+                                    .catch((error) => {
+                                        // Failure code
+                                        console.log(error);
+                                    });
+
+                            }).catch((error) => {
+                            // Failure code
+                            console.log(error);
+                        });
+                    })
+                    .catch((error) => {
+                        // Failure code
+                        console.log(error);
+                    });
+
+            });
+
+
+            /*
         this.manager = new BleManager();
 
         console.log("Lol")
@@ -32,29 +83,51 @@ class DashboardView extends React.Component {
         this.manager.startDeviceScan(null, null, (error, device) => {
             if (error) {
                 console.log(error)
-                // Handle error (scanning will be stopped automatically)
                 return
             }
 
-            // Check if it is a device you are looking for based on advertisement data
-            // or other criteria.
-            console.log("Yo")
+            console.log(`name = ${device.name}`)
 
-            if (device.name === 'TI BLE Sensor Tag' ||
-                device.name === 'SensorTag') {
-
-                // Stop scanning as it's not necessary if you are scanning for one device.
+            if (device.name === 'RenaudBlue') {
                 this.manager.stopDeviceScan();
+                device.connect()
+                    .then((device) => {
+                        console.log("Discovering services and characteristics")
+                        return device.discoverAllServicesAndCharacteristics()
+                    })
+                    .then((device) => {
+                        console.log("Setting notifications")
+                        console.log(`id = ${device.id}`)
 
-                // Proceed with connection.
+
+                        var utf8 = require('utf8');
+                        var binaryToBase64 = require('binaryToBase64');
+
+                        var text = 'ptdr\r\n';
+                        var bytes = utf8.encode(text);
+                        var encoded = binaryToBase64(bytes);
+
+                        return device.writeCharacteristicWithResponseForService(device.id, null, encoded)
+                    })
+                    .then(() => {
+                        console.log("Listening...")
+                    }).catch((error) => {
+                    console.log(`Error : ${error}`)
+                    // Handle errors
+                })
+
             }
         });
+        */
     }
+
 
 
     render() {
             return (
-                <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
+                <View>
+
+                    <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
                     <ProfilePicture/>
                     <BasicInfo/>
 
@@ -63,7 +136,7 @@ class DashboardView extends React.Component {
                     />
 
                     <BasicActivity name={catName} header={`Activity`}
-                                   detailedActivity={'HistoricActivity'} navigation={this.props.navigation}/>
+                                   detailedActivity={'ActivityActivity'} navigation={this.props.navigation}/>
 
                     <BasicMeetings name={catName} header={`Meetings`}
                                    detailedActivity={'MeetingsActivity'} navigation={this.props.navigation}/>
@@ -78,24 +151,21 @@ class DashboardView extends React.Component {
                                  detailedActivity={'tempView'} navigation={this.props.navigation}/>
 
                 </ScrollView>
+                    <RoundMenu navigation={this.props.navigation}/>
+                </View>
             )
     }
 }
 
 export default Dashboard = createStackNavigator ({
+    Dashboard: {
+        screen: DashboardView,
+        navigationOptions: globalStyle.navigationOptions
+    },
     ActivityActivity: {
         screen: ActivityActivity,
         navigationOptions: globalStyle.navigationOptions
     },
-    Dashboard: {
-        screen: DashboardView,
-        navigationOptions: globalStyle.navigationOptions
-
-    },
-    HistoricActivity: {
-        screen: ActivityActivity,
-        navigationOptions: globalStyle.navigationOptions
-    }, // change with dashboard
     MapActivity: {
         screen: MapActivity,
         navigationOptions: globalStyle.navigationOptions
@@ -111,5 +181,8 @@ export default Dashboard = createStackNavigator ({
     tempView: {
         screen: tempView
     },
-
+    Tips: {
+        screen: Tips,
+        navigationOptions: globalStyle.navigationOptions
+    },
 })

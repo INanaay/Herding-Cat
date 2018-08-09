@@ -7,6 +7,7 @@ import Icon from '@expo/vector-icons/Entypo'
 export default class Header extends React.Component {
 
     navigateTo() {
+        console.log("Yo")
         this.props.navigation.navigate(this.props.detailedActivity,
             {
                 navigation: this.props.navigation,
