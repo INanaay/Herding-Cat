@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native'
-import Header from './Header'
+import DashboardComponentHeader from './DashboardComponentHeader'
 import globalStyle from '../../styles'
 
 export default class BasicWeight extends React.Component {
@@ -27,8 +27,8 @@ export default class BasicWeight extends React.Component {
     render() {
         return (
             <View style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header} navigation={this.props.navigation}
-                        detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation}
+                                          detailedActivity={this.props.detailedActivity}/>
 
                 <View style={{flex:1, flexDirection: 'row', justifyContent: 'center',}}>
                     <TextInput ref={(ref)=>{this.textInput = ref}}

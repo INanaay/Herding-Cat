@@ -26,7 +26,7 @@ export default class RoundMenu extends React.Component {
 
 
     constructor(props) {
-        super(props)
+        super(props);
         this.springValue = new Animated.Value(1)
         this.state = {
             width: 50,

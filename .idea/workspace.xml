@@ -2,38 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e81c10-706a-4771-8fcb-361c8a199d5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/ActivityHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicMeetings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicMeetings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/generated/fabric/res/dev19/debug/values/com_crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/generated/fabric/res/dev19/debug/values/com_crashlytics_build_id.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/dev19/debug/host/exp/exponent/Manifest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/dev19/debug/host/exp/exponent/Manifest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/assets/dev19/debug/crashlytics-build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/assets/dev19/debug/crashlytics-build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/Manifest$permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-classes/dev19/debug/instant-run-bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-classes/dev19/debug/instant-run-bootstrap.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/Manifest$permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/file-input-save-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" afterDir="false" />
@@ -41,40 +36,12 @@
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/file-input-save-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-resources/resources-dev19/debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-resources/resources-dev19/debug.ir.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/manifest.crc" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/manifest.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/manifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/dev19/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/dev19/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/manifests/instant-run/dev19/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/manifests/instant-run/dev19/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/componentClasses.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/componentClasses.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/components.flags" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/components.flags" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/manifest_keep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/manifest_keep.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/dev19/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/dev19/debug/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-dev19-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-dev19-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/Manifest$permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_1/buildId.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/Manifest$permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/Manifest$permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_4/buildId.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_6/buildId.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_7/buildId.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_8/buildId.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_9/buildId.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/jarMerging/dev19/debug/jars/1/1f/combined.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/jarMerging/dev19/debug/jars/1/1f/combined.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-dev19-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-dev19-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-dev19-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-dev19-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -89,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfilePicture.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js">
+      <file leaf-file-name="DashboardComponentHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="689">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -101,29 +68,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMap.js">
+      <file leaf-file-name="RoundMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Dashboard/Header.js">
+      <file leaf-file-name="BasicMap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="553">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
+      <file leaf-file-name="styles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+            <state relative-caret-position="544">
+              <caret line="49" column="15" selection-start-line="49" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Social.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -150,6 +129,10 @@
       <find>container</find>
       <find>contentcon</find>
       <find>displayclosed</find>
+      <find>navigatet</find>
+      <find>border</find>
+      <find>dashboard</find>
+      <find>order</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,14 +162,19 @@
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicActivity.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/roundButton.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/roundMenuButton.js" />
-        <option value="$PROJECT_DIR$/styles.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/BasicMap.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenuButton.js" />
         <option value="$PROJECT_DIR$/Components/Activities/Header.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/ActivityHeader.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/BasicInfo.js" />
+        <option value="$PROJECT_DIR$/styles.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/BasicMap.js" />
       </list>
     </option>
   </component>
@@ -206,7 +194,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="27" />
     <option name="width" value="960" />
@@ -218,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,20 +223,14 @@
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Herding" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Herding" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
-              <item name="Activity" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Herding" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="RoundMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,18 +295,22 @@
       <workItem from="1533302067150" duration="8347000" />
       <workItem from="1533372780618" duration="21763000" />
       <workItem from="1533549809146" duration="981000" />
-      <workItem from="1533805378069" duration="598000" />
+      <workItem from="1533805378069" duration="2630000" />
+      <workItem from="1534243098746" duration="1376000" />
+      <workItem from="1535017903595" duration="407000" />
+      <workItem from="1535099479779" duration="2486000" />
+      <workItem from="1535192696221" duration="3208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91151000" />
+    <option name="totallyTimeSpent" value="100660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="960" height="1053" extended-state="4" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12864584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -341,7 +327,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +340,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Components/Dashboard/Header.js</url>
+          <url>file://$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js</url>
           <line>11</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -362,38 +348,17 @@
           <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/styles.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native-ble-plx/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -493,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/map.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Map/MapActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/meetings.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -538,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -576,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSleep.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -593,24 +537,10 @@
     <entry file="file://$PROJECT_DIR$/Resources/Icons/pin_vert.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/ComponentHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -621,37 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="61" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native-ble-manager/BleManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -659,34 +558,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/ComponentHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/Header.js">
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Map/MapActivity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMap.js">
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSleep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/ActivityHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" column="15" selection-start-line="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+        <state relative-caret-position="502">
+          <caret line="138" column="15" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

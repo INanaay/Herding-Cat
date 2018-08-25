@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, Dimensions} from 'react-native'
-import Header from './Header'
+import DashboardComponentHeader from './DashboardComponentHeader'
 import globalStyle from "../../styles";
 import {ProgressChart} from 'react-native-chart-kit'
 import bael from 'babel-polyfill/'
@@ -13,7 +13,7 @@ export default class BasicSpeed extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}/>
                 <View style={{marginBottom: 20}}>
                 <ProgressChart
                     data={data}

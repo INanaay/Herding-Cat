@@ -1,7 +1,7 @@
 import React from 'react'
 import {StyleSheet, View, Image} from 'react-native'
 import MapView from 'react-native-maps'
-import Header from './Header'
+import DashboardComponentHeader from './DashboardComponentHeader'
 import globalStyle from '../../styles'
 
 
@@ -35,7 +35,7 @@ export default class BasicMap extends React.Component {
 
         return (
             <View  style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}
+                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}
                 />
                 <View style={styles.container}>
                     <MapView style={styles.map}
@@ -66,9 +66,9 @@ export default class BasicMap extends React.Component {
 const styles = StyleSheet.create ({
     container: {
         height: 180 ,
-        width: '80%',
-        marginLeft: '10%',
-        marginRight: '10%',
+        width: '90%',
+        marginLeft: '5%',
+        marginRight: '5%',
         overflow: 'hidden',
         borderRadius: 10,
         marginBottom: 40,

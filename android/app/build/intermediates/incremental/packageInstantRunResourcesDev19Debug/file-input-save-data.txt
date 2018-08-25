@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 04 11:02:12 CEST 2018
+#Sat Aug 25 13:15:26 CEST 2018
 20.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 143.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 340.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/anim/catalyst_fade_out.xml
@@ -147,7 +147,7 @@
 402.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/ic_refresh_white_36dp.png
 264.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png
 297.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/anim/tooltip_exit.xml
-127.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+127.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png
 272.set=ANDROID_RESOURCE
 161.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 150.set=ANDROID_RESOURCE
@@ -870,7 +870,7 @@
 403.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
 265.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable/com_facebook_button_like_background.xml
 298.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxhdpi-v4/ic_card_discover.png
-128.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png
+128.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 300.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 282.set=ANDROID_RESOURCE
 162.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_

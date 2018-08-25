@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 04 11:02:16 CEST 2018
+#Sat Aug 25 13:15:28 CEST 2018
 20.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 143.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 493.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/mergeJniLibs/dev19/debug/folders/2000/1f/main
@@ -686,7 +686,7 @@
 57.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 357.set=ANDROID_RESOURCE
 377.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/mergeJniLibs/dev19/debug/folders/2000/1f/main/lib/armeabi-v7a/libfolly_json_abi26_0_0.so
-207.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png
+207.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 610.set=NATIVE_RESOURCE
 203.set=ANDROID_RESOURCE
 655.set=JAVA_RESOURCE
@@ -1894,7 +1894,7 @@ count=699
 58.base=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_
 367.set=ANDROID_RESOURCE
 378.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/color-v23/abc_tint_switch_track.xml
-208.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+208.file=/home/NANAA/Missions/Herding/android/app/build/intermediates/res/resources-dev19-debug.ap_/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png
 213.set=ANDROID_RESOURCE
 665.set=ANDROID_RESOURCE
 168.set=NATIVE_RESOURCE

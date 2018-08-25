@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, View, ScrollView} from 'react-native'
-import Header from '../Header'
+import ActivityHeader from '../ActivityHeader'
 import globalStyle from "../../../styles";
 import GlobalActivity from "./GlobalActivity";
 import SocialActivity from "./SocialActivity"
@@ -14,7 +14,7 @@ class ActivityActivity extends React.Component {
     render() {
         return (
             <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
-                <Header title={"activity"} navigation={this.props.navigation}/>
+                <ActivityHeader title={"activity"} navigation={this.props.navigation}/>
                 <GlobalActivity detailedActivity={'HistoricActivity'}
                                 navigation={this.props.navigation}/>
                 <SocialActivity/>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {View} from 'react-native'
 import globalStyle from "../../styles";
-import Header from './Header'
+import DashboardComponentHeader from './DashboardComponentHeader'
 import { AreaChart, Grid, XAxis, YAxis} from 'react-native-svg-charts'
 import * as shape from 'd3-shape'
 
@@ -14,8 +14,8 @@ export default class BasicSleep extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header} navigation={this.props.navigation}
-                        detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation}
+                                          detailedActivity={this.props.detailedActivity}/>
 
                 <View style={{ height: 240, padding: 20, flex: 1, flexDirection: 'column' }} >
                     <View style={{flex: 1, flexDirection: 'row'}}>

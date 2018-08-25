@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, StyleSheet} from 'react-native'
-import Header from "./Header";
+import DashboardComponentHeader from "./DashboardComponentHeader";
 import globalStyle from '../../styles'
 import {BarChart, Grid, YAxis, XAxis} from 'react-native-svg-charts'
 
@@ -15,9 +15,9 @@ export default class BasicActivity extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header}
-                        navigation={this.props.navigation}
-                        detailedActivity={this.props.detailedActivity}
+                <DashboardComponentHeader name={this.props.name} text={this.props.header}
+                                          navigation={this.props.navigation}
+                                          detailedActivity={this.props.detailedActivity}
                 />
                 <View style={{alignItems:'center'}}>
               <View style={globalStyle.graphContainer} >

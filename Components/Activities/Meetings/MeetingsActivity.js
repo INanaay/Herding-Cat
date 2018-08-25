@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, Image, StyleSheet} from 'react-native'
-import Header from '../Header'
+import ActivityHeader from '../ActivityHeader'
 
 export default class MeetingsActivity extends React.Component {
 
@@ -8,7 +8,7 @@ export default class MeetingsActivity extends React.Component {
     {
         return (
             <View>
-                <Header title={"meetings"} navigation={this.props.navigation}/>
+                <ActivityHeader title={"meetings"} navigation={this.props.navigation}/>
                 <View>
                 <Image
                     style={styles.image}

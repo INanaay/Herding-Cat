@@ -20,6 +20,8 @@ import RoundMenu from './RoundMenu/RoundMenu'
 import Tips from "./RoundMenu/Tips";
 import { stringToBytes } from 'convert-string';
 import Buffer from 'buffer'
+import Social from "./RoundMenu/Social";
+import Challenges from "./RoundMenu/Challenges";
 
 const catName='Hector'
 const id="88:3F:4A:DF:B4:81"
@@ -49,7 +51,6 @@ class DashboardView extends React.Component {
                                             .then((readData) => {
                                                 // Success code
                                                 console.log('Read: ' + readData);
-
                                                 const buffer = Buffer.Buffer.from(readData);    //https://github.com/feross/buffer#convert-arraybuffer-to-buffer
                                             })
                                             .catch((error) => {
@@ -60,7 +61,7 @@ class DashboardView extends React.Component {
                                     .catch((error) => {
                                         // Failure code
                                         console.log(error);
-                                    });
+                                    })
 
                             }).catch((error) => {
                             // Failure code
@@ -70,55 +71,12 @@ class DashboardView extends React.Component {
                     .catch((error) => {
                         // Failure code
                         console.log(error);
-                    });
-
-            });
-
-
-            /*
-        this.manager = new BleManager();
-
-        console.log("Lol")
-
-        this.manager.startDeviceScan(null, null, (error, device) => {
-            if (error) {
-                console.log(error)
-                return
-            }
-
-            console.log(`name = ${device.name}`)
-
-            if (device.name === 'RenaudBlue') {
-                this.manager.stopDeviceScan();
-                device.connect()
-                    .then((device) => {
-                        console.log("Discovering services and characteristics")
-                        return device.discoverAllServicesAndCharacteristics()
                     })
-                    .then((device) => {
-                        console.log("Setting notifications")
-                        console.log(`id = ${device.id}`)
 
-
-                        var utf8 = require('utf8');
-                        var binaryToBase64 = require('binaryToBase64');
-
-                        var text = 'ptdr\r\n';
-                        var bytes = utf8.encode(text);
-                        var encoded = binaryToBase64(bytes);
-
-                        return device.writeCharacteristicWithResponseForService(device.id, null, encoded)
-                    })
-                    .then(() => {
-                        console.log("Listening...")
-                    }).catch((error) => {
-                    console.log(`Error : ${error}`)
-                    // Handle errors
-                })
-
-            }
+            }).catch((error) => {
+            // Failure code
+            console.log(error);
         });
-        */
     }
 
 
@@ -129,7 +87,7 @@ class DashboardView extends React.Component {
 
                     <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
                     <ProfilePicture/>
-                    <BasicInfo/>
+                    <BasicInfo navigation={this.props.navigation}/>
 
                     <BasicMap name={catName} header={`Day`}
                               detailedActivity={'MapActivity'} navigation={this.props.navigation}
@@ -185,4 +143,12 @@ export default Dashboard = createStackNavigator ({
         screen: Tips,
         navigationOptions: globalStyle.navigationOptions
     },
+    Social: {
+        screen: Social,
+        navigationOptions: globalStyle.navigationOptions
+    },
+    Challenges: {
+        screen: Challenges,
+        navigationOptions: globalStyle.navigationOptions
+    }
 })

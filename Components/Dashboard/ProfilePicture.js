@@ -16,7 +16,7 @@ export default class ProfilePicture extends React.Component {
 
     render() {
         return (
-            <View style={[style.container, globalStyle.dashboardBorder]}>
+            <View style={style.container}>
                 <ImageBackground source={require('../..//Resources/Images/HectorPP.png')} style={style.image}>
                     <LinearGradient
                         colors={[ 'rgba(0,0,0,0)', globalStyle.backgroundColor]}

@@ -4,7 +4,7 @@ import globalStyle from '../../styles'
 import tempView from '../tempView'
 import Icon from '@expo/vector-icons/Entypo'
 
-export default class Header extends React.Component {
+export default class DashboardComponentHeader extends React.Component {
 
     navigateTo() {
         console.log("Yo")

@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/FontAwesome'
 import globalStyle from "../../styles";
 import { NavigationActions } from 'react-navigation'
 
-export default class Header extends React.Component {
+export default class ActivityHeader extends React.Component {
 
     render(){
         return (

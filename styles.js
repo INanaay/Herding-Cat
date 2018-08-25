@@ -3,7 +3,8 @@ import {Dimensions} from "react-native";
 
 /* ------- COLORS ------- */
 
-const backgroundColor = '#434343';
+const borderColor = '#4A4A4A'
+const backgroundColor = '#2C2C2C';
 const fontColor = '#FFF'
 const transparent = 'rgba(52, 52, 52, 0.0)'
 const secondaryColor = '#35C5A5'
@@ -30,6 +31,7 @@ const navigationOptions = {
 
 
 export default {
+    borderColor: borderColor,
     navigationOptions: navigationOptions,
     screenWidth: screenWidth,
     chartConfig: chartConfig,
@@ -37,10 +39,11 @@ export default {
     fontColor: fontColor,
     transparent: transparent,
     secondaryColor: secondaryColor,
+    borderWidth: 1,
 
     dashboardBorder: {
         borderBottomWidth: 0.4,
-        borderColor: '#FFF'
+        borderColor: borderColor
     },
     graphContainer: {
         height:200,

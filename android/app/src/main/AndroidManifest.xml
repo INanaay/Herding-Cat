@@ -197,7 +197,7 @@
     This crashes: https://code.google.com/p/analytics-issues/issues/detail?id=667
     TODO: turn it back on when it's fixed
     <service
-      android:name="com.google.android.gms.analytics.CampaignTrackingService"
+      android:name="com.go  ogle.android.gms.analytics.CampaignTrackingService"
       android:enabled="true"
       android:exported="false" />-->
 

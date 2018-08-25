@@ -1,6 +1,6 @@
 import React from 'react'
 import {ListView, View, Text, StyleSheet} from 'react-native'
-import Header from '../Header'
+import ActivityHeader from '../ActivityHeader'
 import Row from './Row'
 import globalStyle from '../../../styles'
 import GraphTab from './GraphTab'
@@ -34,7 +34,7 @@ export default class HistoricActivity extends React.Component {
 
         return (
             <View style={{backgroundColor: globalStyle.backgroundColor, height: '100%'}}>
-            <Header title={"activity"} navigation={this.props.navigation}/>
+            <ActivityHeader title={"activity"} navigation={this.props.navigation}/>
                 <View >
                     <GraphTab/>
                 </View>

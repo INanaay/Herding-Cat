@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, TouchableOpacity, Text, StyleSheet} from 'react-native'
-import Header from "./Header";
+import DashboardComponentHeader from "./DashboardComponentHeader";
 import globalStyle from '../../styles'
 
 
@@ -30,7 +30,7 @@ export default class BasicActivity extends React.Component {
     render() {
         return (
             <View style={globalStyle.dashboardBorder}>
-                <Header name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}/>
                 <View style={{alignItems:'center'}}>
                     <TouchableOpacity style={style.friendButton}
                                       onPress={() => this.navigateToDetailedActivity()}>
