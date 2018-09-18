@@ -15,8 +15,6 @@ export default class DashboardComponentHeader extends React.Component {
     }
 
     render() {
-
-
         return (
             <View style={styles.container}>
                 <Text style={styles.text}>{this.props.name.toUpperCase()} 'S {this.props.text.toUpperCase()}</Text>

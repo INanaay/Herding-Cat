@@ -530,6 +530,8 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:213:14-38
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:211:14-78
+x
+ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:213:41-48
 receiver#com.google.android.gms.gcm.GcmReceiver
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:216:5-226:16
 	android:exported

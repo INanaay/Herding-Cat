@@ -1,14 +1,11 @@
 import React from 'react'
 import {TouchableWithoutFeedback, StyleSheet, Animated, View, Text, TouchableOpacity} from 'react-native'
-import Icon from '@expo/vector-icons/FontAwesome'
+import FontAwesome from '@expo/vector-icons/FontAwesome'
+import Ionicons from '@expo/vector-icons/MaterialIcons'
 import {createStackNavigator} from 'react-navigation'
 import globalStyle from  '../../../styles'
 import Tips from './Tips'
-import MapActivity from "../../Activities/Map/MapActivity";
-import tempView from "../../tempView";
-import SleepActivity from "../../Activities/Sleep/SleepActivity";
-import ActivityActivity from "../../Activities/Activity/ActivityActivity";
-import MeetingsActivity from "../../Activities/Meetings/MeetingsActivity";
+
 
 /*
 
@@ -68,7 +65,7 @@ export default class RoundMenu extends React.Component {
                 style={[styles.button, {width: this.state.width, height: this.state.height}]}
                 onPress={this.spring.bind(this)}
             >
-                <Icon name={"bars"}  size={20} color="#FFF" />
+                <FontAwesome name={"bars"}  size={20} color="#FFF" />
             </TouchableWithoutFeedback>
         )
     }
@@ -78,8 +75,11 @@ export default class RoundMenu extends React.Component {
     {
         return (
             <TouchableOpacity
-                onPress={() => this.navigateTo(title)}>
+                onPress={() => this.navigateTo(title)}
+                style={{flexDirection:'row', padding: 2, justifyContent: 'space-between', alignItems: 'center'
+                }}>
                 <Text style={styles.menuOptionText}>{title}</Text>
+                <FontAwesome style={{marginLeft: 5}} name={"bars"}  size={5} color="#FFF" />
             </TouchableOpacity>
         )
     }
@@ -107,13 +107,13 @@ export default class RoundMenu extends React.Component {
     displayOpen()
     {
         return (
-            <View style={{backgroundColor: '#ffb471'}}>
+            <View style={{flex: 1, margin: 6, paddingRight: 10, paddingTop: 5, alignItems: 'flex-end', justifyContent: 'space-between'}}>
                 {this.displayMenuOption("Social")}
                 {this.displayMenuOption("Challenges")}
                 {this.displayMenuOption("Tips")}
                 <TouchableOpacity
                     onPress={() => this.closeMenu()}>
-                    <Text style={styles.menuOptionText}>quit</Text>
+                    <Ionicons style={{margin: 2, marginBottom: '40%'}} name={"clear"}  size={5} color="#FFF" />
                 </TouchableOpacity>
 
 
@@ -155,6 +155,7 @@ const styles = StyleSheet.create({
         justifyContent:'center',
     },
     menuOptionText : {
+        textAlign: 'right',
         fontSize: 5,
         color: '#FFF'
     }

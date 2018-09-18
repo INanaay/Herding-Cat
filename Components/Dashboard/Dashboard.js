@@ -24,13 +24,27 @@ import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
 
 const catName='Hector'
-const id="88:3F:4A:DF:B4:81"
+//const id="88:3F:4A:DF:B4:81"
+const id="30:AE:A4:14:85:96"
 
 class DashboardView extends React.Component {
 
+    readBluetoothData()
+    {
+        BleManager.read(id, '4fafc201-1fb5-459e-8fcc-c5c9c331914b', 'beb5483e-36e1-4688-b7f5-ea07361b26a8')
+            .then((readData) => {
+                // Success code
+                console.log('Read: ' + readData);
+                const buffer = Buffer.Buffer.from(readData);    //https://github.com/feross/buffer#convert-arraybuffer-to-buffer
+            })
+            .catch((error) => {
+                // Failure code
+                console.log(error);
+            });
+    }
+
     constructor(props) {
         super(props)
-
 
         BleManager.start({showAlert: false})
             .then(() => {
@@ -43,20 +57,11 @@ class DashboardView extends React.Component {
                                 // Success code
                                 console.log('Peripheral info:', peripheralInfo);
                                 const data = stringToBytes("Yo");
-                                BleManager.write(id, 'FFE0', 'FFE1', data)
+                                BleManager.write(id, '4fafc201-1fb5-459e-8fcc-c5c9c331914b', 'beb5483e-36e1-4688-b7f5-ea07361b26a8', data)
                                     .then(() => {
                                         // Success code
                                         console.log('Write: ' + data);
-                                        BleManager.read(id, 'FFE0', 'FFE1')
-                                            .then((readData) => {
-                                                // Success code
-                                                console.log('Read: ' + readData);
-                                                const buffer = Buffer.Buffer.from(readData);    //https://github.com/feross/buffer#convert-arraybuffer-to-buffer
-                                            })
-                                            .catch((error) => {
-                                                // Failure code
-                                                console.log(error);
-                                            });
+                                        this.readBluetoothData()
                                     })
                                     .catch((error) => {
                                         // Failure code

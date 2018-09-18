@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="24"
-    build-mode="FULL"
-    density="xxxhdpi"
+    build-mode="COLD"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1535195721408"
+    timestamp="1536587907752"
     token="345526768729307621"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,50 +23,10 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/outputs/apk/app-dev19-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_0.apk"
-        type="SPLIT" />
-
     <build
         build-mode="FULL"
-        timestamp="1535195721408"
+        timestamp="1536586870373"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/NANAA/Missions/Herding/android/app/build/outputs/apk/app-dev19-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -100,6 +60,13 @@
         <artifact
             location="/home/NANAA/Missions/Herding/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/NANAA/Missions/Herding/android/app/build/outputs/apk/app-dev19-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1536587907752"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
