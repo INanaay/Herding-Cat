@@ -12,6 +12,8 @@ class InfoCell extends React.Component {
             });
     }
 
+
+
     render() {
         let isBorder = this.props.border === true ? {borderRightWidth: globalStyle.borderWidth} : {borderRightWidth: 0}
 
@@ -30,13 +32,29 @@ class InfoCell extends React.Component {
     }
 }
 
+
+
 export default class BasicInfo extends React.Component {
 
     render() {
+
+        function calculateDistance(isInfoLoaded, distance)
+        {
+            console.log(isInfoLoaded)
+            if (!isInfoLoaded)
+                return 0;
+
+            const oneMeter = 0.6
+            let distanceInKilometers = distance * oneMeter * 0.001
+            let finalDistance =  Math.round(distanceInKilometers * 100) / 100
+            return (finalDistance)
+        }
+
+        // FAIRE UN TRUC BIEN AVEC LES STATES, CECI EST TEMPORAIRE
         return (
             <View style={{flex: 1, flexDirection: 'column'}}>
                 <View style={[style.rowContainer, globalStyle.dashboardBorder]}>
-                    <InfoCell value={4.37} info={"KM TRAVELED"} border={true} detailedActivity={"MapActivity"} navigation={this.props.navigation}/>
+                    <InfoCell value={calculateDistance(this.props.loaded, this.props.distance)} info={"KM TRAVELED"} border={true} detailedActivity={"MapActivity"} navigation={this.props.navigation}/>
                     <InfoCell value={3} info={"MATES MET"} detailedActivity={"MeetingsActivity"} navigation={this.props.navigation}/>
                 </View>
                 <View style={style.rowContainer}>

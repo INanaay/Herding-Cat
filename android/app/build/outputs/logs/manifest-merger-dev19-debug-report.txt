@@ -561,7 +561,7 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:229:7-53
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:231:7-233:23
+ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:231:7-233:25
 service#host.exp.exponent.gcm.ExponentInstanceIDListenerService
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:235:5-241:15
 	android:exported

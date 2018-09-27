@@ -19,7 +19,7 @@ export default class ProfilePicture extends React.Component {
             <View style={style.container}>
                 <ImageBackground source={require('../..//Resources/Images/HectorPP.png')} style={style.image}>
                     <LinearGradient
-                        colors={[ 'rgba(0,0,0,0)', globalStyle.backgroundColor]}
+                        colors={['rgba(0,0,0,0)', globalStyle.backgroundColor]}
                         style={{
                             position: 'absolute',
                             left: 0,
@@ -30,7 +30,7 @@ export default class ProfilePicture extends React.Component {
                     />
                     <View style={style.contentContainer}>
                     {this.showCatName()}
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={this.props.onPress}>
                         <Image source={require('../../Resources/Icons/geolocalisation.png')} style={{width: 30, height: 30}}/>
                     </TouchableOpacity>
                     </View>

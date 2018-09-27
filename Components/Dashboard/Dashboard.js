@@ -22,20 +22,31 @@ import { stringToBytes } from 'convert-string';
 import Buffer from 'buffer'
 import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
+import { bytesToString } from 'convert-string';
 
+
+const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
+const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
 //const id="88:3F:4A:DF:B4:81"
-const id="30:AE:A4:14:85:96"
+const id="30:AE:A4:1B:9F:76"
 
 class DashboardView extends React.Component {
 
     readBluetoothData()
     {
-        BleManager.read(id, '4fafc201-1fb5-459e-8fcc-c5c9c331914b', 'beb5483e-36e1-4688-b7f5-ea07361b26a8')
+        BleManager.read(id, serviceUUID, characteristicUUID)
             .then((readData) => {
                 // Success code
                 console.log('Read: ' + readData);
-                const buffer = Buffer.Buffer.from(readData);    //https://github.com/feross/buffer#convert-arraybuffer-to-buffer
+                const data = bytesToString(readData)
+                console.log(data)
+                this.setState({
+                    distance: data,
+                    isInfoLoaded: true,
+                })
+                console.log("State distance = " + this.state.distance)
+
             })
             .catch((error) => {
                 // Failure code
@@ -43,8 +54,34 @@ class DashboardView extends React.Component {
             });
     }
 
+    getCollarInfos()
+    {
+
+        this.setState({
+            isInfoLoaded: false,
+        })
+
+        const key = stringToBytes("Yo");
+        BleManager.write(id, serviceUUID, characteristicUUID, key)
+            .then(() => {
+                // Success code
+                console.log('Write: ' + key);
+                this.readBluetoothData()
+            })
+            .catch((error) => {
+                // Failure code
+                console.log(error);
+            })
+    }
+
     constructor(props) {
         super(props)
+        this.state = {
+            isInfoLoaded: false,
+            distance: 0,
+        }
+
+        this.getCollarInfos = this.getCollarInfos.bind(this)
 
         BleManager.start({showAlert: false})
             .then(() => {
@@ -52,21 +89,13 @@ class DashboardView extends React.Component {
                 console.log('Module initialized');
                 BleManager.connect(id)
                     .then(() => {
+                        console.log("Connected");
                         BleManager.retrieveServices(id)
                             .then((peripheralInfo) => {
-                                // Success code
+                                // Success cod
                                 console.log('Peripheral info:', peripheralInfo);
-                                const data = stringToBytes("Yo");
-                                BleManager.write(id, '4fafc201-1fb5-459e-8fcc-c5c9c331914b', 'beb5483e-36e1-4688-b7f5-ea07361b26a8', data)
-                                    .then(() => {
-                                        // Success code
-                                        console.log('Write: ' + data);
-                                        this.readBluetoothData()
-                                    })
-                                    .catch((error) => {
-                                        // Failure code
-                                        console.log(error);
-                                    })
+                                this.getCollarInfos()
+
 
                             }).catch((error) => {
                             // Failure code
@@ -91,8 +120,8 @@ class DashboardView extends React.Component {
                 <View>
 
                     <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
-                    <ProfilePicture/>
-                    <BasicInfo navigation={this.props.navigation}/>
+                    <ProfilePicture state={this.state} onPress={this.getCollarInfos}/>
+                    <BasicInfo navigation={this.props.navigation} loaded={this.state.isInfoLoaded} distance={this.state.distance}/>
 
                     <BasicMap name={catName} header={`Day`}
                               detailedActivity={'MapActivity'} navigation={this.props.navigation}

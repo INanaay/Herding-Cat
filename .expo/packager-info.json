@@ -1,8 +1,8 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 14303,
-  "expoServerNgrokUrl": "https://6e-x7f.inanaay.herding.exp.direct",
-  "packagerNgrokUrl": "https://packager.6e-x7f.inanaay.herding.exp.direct",
-  "ngrokPid": 14399
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

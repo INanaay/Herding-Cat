@@ -1,10 +1,11 @@
 import React from 'react'
-import {TouchableWithoutFeedback, StyleSheet, Animated, View, Text, TouchableOpacity} from 'react-native'
+import {TouchableWithoutFeedback, StyleSheet, Animated, View, Text, TouchableOpacity, Image} from 'react-native'
 import FontAwesome from '@expo/vector-icons/FontAwesome'
 import Ionicons from '@expo/vector-icons/MaterialIcons'
 import {createStackNavigator} from 'react-navigation'
 import globalStyle from  '../../../styles'
 import Tips from './Tips'
+import MenuIcons from './IconsSource'
 
 
 /*
@@ -32,7 +33,7 @@ export default class RoundMenu extends React.Component {
         }
     }
 
-    spring () {
+    spring() {
         if (!this.state.isOpen) {
             this.springValue.setValue(1)
             Animated.spring(
@@ -65,27 +66,26 @@ export default class RoundMenu extends React.Component {
                 style={[styles.button, {width: this.state.width, height: this.state.height}]}
                 onPress={this.spring.bind(this)}
             >
-                <FontAwesome name={"bars"}  size={20} color="#FFF" />
+                <FontAwesome name={"bars"} size={20} color="#FFF"/>
             </TouchableWithoutFeedback>
         )
     }
 
 
-    displayMenuOption(title)
-    {
+    displayMenuOption(title) {
         return (
             <TouchableOpacity
                 onPress={() => this.navigateTo(title)}
-                style={{flexDirection:'row', padding: 2, justifyContent: 'space-between', alignItems: 'center'
+                style={{
+                    flexDirection: 'row', padding: 2, justifyContent: 'space-between', alignItems: 'center'
                 }}>
                 <Text style={styles.menuOptionText}>{title}</Text>
-                <FontAwesome style={{marginLeft: 5}} name={"bars"}  size={5} color="#FFF" />
+                {this.displayIcon(title)}
             </TouchableOpacity>
         )
     }
 
-    closeMenu()
-    {
+    closeMenu() {
         console.log("Closing menu")
 
         this.springValue.setValue(1)
@@ -102,6 +102,15 @@ export default class RoundMenu extends React.Component {
             isOpen: false
         })
 
+    }
+
+    displayIcon(iconType)
+    {
+        if (iconType) {
+            return (
+                <Image source={MenuIcons.icons.social} style={{height: 5, width: 5, marginHorizontal: 2 }}/>
+            )
+        }
     }
 
     displayOpen()
