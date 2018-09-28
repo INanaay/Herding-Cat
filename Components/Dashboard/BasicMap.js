@@ -19,6 +19,7 @@ const markers = [
 export default class BasicMap extends React.Component {
 
 
+    /*
     placeMapMarker(markerIndex){
         return (
             <MapView.Marker
@@ -30,6 +31,7 @@ export default class BasicMap extends React.Component {
             </MapView.Marker>
         )
     }
+    */
 
     render() {
 

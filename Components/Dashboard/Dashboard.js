@@ -64,22 +64,29 @@ class DashboardView extends React.Component {
         const key = stringToBytes("Yo");
         BleManager.write(id, serviceUUID, characteristicUUID, key)
             .then(() => {
-                // Success code
                 console.log('Write: ' + key);
                 this.readBluetoothData()
             })
             .catch((error) => {
-                // Failure code
                 console.log(error);
             })
     }
+
+    connectAndPrepare(peripheral, service, characteristic) {
+        t juste BleManager.startNotification(peripheral, service, characteristic);
+
+    }
+
+
 
     constructor(props) {
         super(props)
         this.state = {
             isInfoLoaded: false,
             distance: 0,
-        }
+        };
+
+
 
         this.getCollarInfos = this.getCollarInfos.bind(this)
 
@@ -111,6 +118,7 @@ class DashboardView extends React.Component {
             // Failure code
             console.log(error);
         });
+
     }
 
 

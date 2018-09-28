@@ -62,12 +62,9 @@ export default class RoundMenu extends React.Component {
 
     displayClosed() {
         return (
-            <TouchableWithoutFeedback
-                style={[styles.button, {width: this.state.width, height: this.state.height}]}
-                onPress={this.spring.bind(this)}
-            >
+
                 <FontAwesome name={"bars"} size={20} color="#FFF"/>
-            </TouchableWithoutFeedback>
+
         )
     }
 
@@ -88,12 +85,12 @@ export default class RoundMenu extends React.Component {
     closeMenu() {
         console.log("Closing menu")
 
-        this.springValue.setValue(1)
+        //this.springValue.setValue(1)
         Animated.spring(
             this.springValue,
             {
                 toValue: 1,
-                friction: 5
+                friction: 100
             }
         ).start()
         this.setState({
@@ -140,10 +137,15 @@ export default class RoundMenu extends React.Component {
 
     render() {
         return (
+            <TouchableWithoutFeedback
+                style={[styles.button, {width: this.state.width, height: this.state.height}]}
+                onPress={this.spring.bind(this)}
+            >
             <Animated.View
                 style={[styles.container, {width: this.state.width, height: this.state.height, transform: [{scale: this.springValue}]}]}>
                 {this.displayMenuContent()}
             </Animated.View>
+            </TouchableWithoutFeedback>
         )
     }
 }
