@@ -1,6 +1,6 @@
 const icons = {
     icons: {
-        social: require('/home/NANAA/Missions/Herding/Resources/Icons/roundmenu_social.png')
+        social: require('../../../Resources/Icons/roundmenu_social.png')
     }
 
 }

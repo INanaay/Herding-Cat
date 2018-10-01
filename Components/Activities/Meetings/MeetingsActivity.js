@@ -12,7 +12,7 @@ export default class MeetingsActivity extends React.Component {
                 <View>
                 <Image
                     style={styles.image}
-                    source={require('/home/NANAA/Missions/Herding/Resources/Images/Activities/meetings.png')}/>
+                    source={require('../../../Resources/Images/Activities/meetings.png')}/>
                 </View>
             </View>
         )

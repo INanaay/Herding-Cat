@@ -12,7 +12,7 @@ export default class SleepActivity extends React.Component {
                 <View>
                     <Image
                         style={styles.image}
-                        source={require('/home/NANAA/Missions/Herding/Resources/Images/Activities/sleep.png')}/>
+                        source={require('../../../Resources/Images/Activities/sleep.png')}/>
                 </View>
             </View>
         )

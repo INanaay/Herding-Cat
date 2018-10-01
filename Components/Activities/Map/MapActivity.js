@@ -10,7 +10,7 @@ export default class MapActivity extends React.Component {
             <View>
                 <ActivityHeader title={"journey"} navigation={this.props.navigation}/>
                 <Image
-                    source={require('/home/NANAA/Missions/Herding/Resources/Images/Activities/map.png')}/>
+                    source={require('../../../Resources/Images/Activities/map.png')}/>
             </View>
         )
     }

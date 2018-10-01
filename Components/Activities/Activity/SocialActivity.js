@@ -7,7 +7,7 @@ class Social extends React.Component {
     render() {
         return (
         <View style={styles.container}>
-            <Image style={styles.icon} source={require('/home/NANAA/Missions/Herding/Resources/Icons/pacchu.png')}/>
+            <Image style={styles.icon} source={require('../../../Resources/Icons/pacchu.png')}/>
             <Text style={styles.text}>{this.props.name} spent {this.props.time} with {this.props.cat}</Text>
             <Text > from 8h29 to 11h50</Text>
         </View>

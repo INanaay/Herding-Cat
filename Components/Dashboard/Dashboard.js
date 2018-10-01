@@ -24,7 +24,6 @@ import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
 import { bytesToString } from 'convert-string';
 
-
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
@@ -33,7 +32,7 @@ const id="30:AE:A4:1B:9F:76"
 const BleManagerModule = NativeModules.BleManager;
 const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
 
-
+\
 class DashboardView extends React.Component {
 
     readBluetoothData()
