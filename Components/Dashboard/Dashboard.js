@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, ScrollView, StyleSheet, Text, TouchableOpacity} from 'react-native'
+import {View, ScrollView, StyleSheet, Text, TouchableOpacity, NativeEventEmitter  NativeModules} from 'react-native'
 import ProfilePicture from './ProfilePicture'
 import globalStyle from '../../styles'
 import BasicInfo from "./BasicInfo";
@@ -28,8 +28,11 @@ import { bytesToString } from 'convert-string';
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
-//const id="88:3F:4A:DF:B4:81"
 const id="30:AE:A4:1B:9F:76"
+
+const BleManagerModule = NativeModules.BleManager;
+const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
+
 
 class DashboardView extends React.Component {
 
@@ -62,6 +65,7 @@ class DashboardView extends React.Component {
         })
 
         const key = stringToBytes("Yo");
+
         BleManager.write(id, serviceUUID, characteristicUUID, key)
             .then(() => {
                 console.log('Write: ' + key);
@@ -72,11 +76,18 @@ class DashboardView extends React.Component {
             })
     }
 
-    connectAndPrepare(peripheral, service, characteristic) {
-        t juste BleManager.startNotification(peripheral, service, characteristic);
+    async listenForImpact(peripheral, service, characteristic) {
+       await BleManager.startNotification(peripheral, service, characteristic);
+        bleManagerEmitter.addListener(
+            'BleManagerDidUpdateValueForCharacteristic',
+            ({ value, peripheral, characteristic, service }) => {
+                // Convert bytes array to string
+                const data = bytesToString(value);
+                console.log(`Recieved ${data} for characteristic ${characteristic}`);
+            }
+        );
 
     }
-
 
 
     constructor(props) {
@@ -92,33 +103,24 @@ class DashboardView extends React.Component {
 
         BleManager.start({showAlert: false})
             .then(() => {
-                // Success code
                 console.log('Module initialized');
                 BleManager.connect(id)
                     .then(() => {
                         console.log("Connected");
                         BleManager.retrieveServices(id)
                             .then((peripheralInfo) => {
-                                // Success cod
                                 console.log('Peripheral info:', peripheralInfo);
                                 this.getCollarInfos()
-
-
                             }).catch((error) => {
-                            // Failure code
                             console.log(error);
                         });
                     })
                     .catch((error) => {
-                        // Failure code
                         console.log(error);
                     })
-
             }).catch((error) => {
-            // Failure code
             console.log(error);
         });
-
     }
 
 
