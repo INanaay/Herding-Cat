@@ -29,9 +29,6 @@ const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
 const id="30:AE:A4:1B:9F:76"
 
-const BleManagerModule = NativeModules.BleManager;
-const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
-
 
 class DashboardView extends React.Component {
 
@@ -74,20 +71,6 @@ class DashboardView extends React.Component {
                 console.log(error);
             })
     }
-
-    async listenForImpact(peripheral, service, characteristic) {
-       await BleManager.startNotification(peripheral, service, characteristic);
-        bleManagerEmitter.addListener(
-            'BleManagerDidUpdateValueForCharacteristic',
-            ({ value, peripheral, characteristic, service }) => {
-                // Convert bytes array to string
-                const data = bytesToString(value);
-                console.log(`Recieved ${data} for characteristic ${characteristic}`);
-            }
-        );
-
-    }
-
 
     constructor(props) {
         super(props)
