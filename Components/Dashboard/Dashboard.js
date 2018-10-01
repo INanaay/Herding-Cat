@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, ScrollView, StyleSheet, Text, TouchableOpacity, NativeEventEmitter  NativeModules} from 'react-native'
+import {View, ScrollView, StyleSheet, Text, TouchableOpacity, NativeEventEmitter, NativeModules} from 'react-native'
 import ProfilePicture from './ProfilePicture'
 import globalStyle from '../../styles'
 import BasicInfo from "./BasicInfo";
