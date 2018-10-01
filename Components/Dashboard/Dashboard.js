@@ -32,7 +32,7 @@ const id="30:AE:A4:1B:9F:76"
 const BleManagerModule = NativeModules.BleManager;
 const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
 
-\
+
 class DashboardView extends React.Component {
 
     readBluetoothData()
