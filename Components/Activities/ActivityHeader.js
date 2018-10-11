@@ -14,7 +14,7 @@ export default class ActivityHeader extends React.Component {
 
             <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between', }}>
                 <View style={{height: 20}}>
-                    <Icon.Button
+                        <Icon.Button
                         name="arrow-left"
                         backgroundColor={globalStyle.transparent}
                         color={globalStyle.fontColor}

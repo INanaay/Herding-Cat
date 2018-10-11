@@ -23,6 +23,7 @@ import Buffer from 'buffer'
 import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
 import { bytesToString } from 'convert-string';
+import Popup from "./Popup/Popup";
 
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
@@ -79,8 +80,6 @@ class DashboardView extends React.Component {
             distance: 0,
         };
 
-
-
         this.getCollarInfos = this.getCollarInfos.bind(this)
 
         BleManager.start({showAlert: false})
@@ -104,8 +103,6 @@ class DashboardView extends React.Component {
             console.log(error);
         });
     }
-
-
 
     render() {
             return (
@@ -135,6 +132,7 @@ class DashboardView extends React.Component {
                                  detailedActivity={'tempView'} navigation={this.props.navigation}/>
 
                 </ScrollView>
+                    <Popup/>
                     <RoundMenu navigation={this.props.navigation}/>
                 </View>
             )
