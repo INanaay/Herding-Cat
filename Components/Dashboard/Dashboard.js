@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, ScrollView, StyleSheet, Text, TouchableOpacity, NativeEventEmitter, NativeModules} from 'react-native'
+import {View, ScrollView, StyleSheet, Text, TouchableOpacity, NativeEventEmitter, NativeAppEventEmitter, NativeModules} from 'react-native'
 import ProfilePicture from './ProfilePicture'
 import globalStyle from '../../styles'
 import BasicInfo from "./BasicInfo";
@@ -24,6 +24,12 @@ import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
 import { bytesToString } from 'convert-string';
 import Popup from "./Popup/Popup";
+
+
+
+const BleManagerModule = NativeModules.BleManager;
+const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
+
 
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
@@ -54,7 +60,7 @@ class DashboardView extends React.Component {
             });
     }
 
-    getCollarInfos()
+    async getCollarInfos()
     {
 
         this.setState({
@@ -67,21 +73,36 @@ class DashboardView extends React.Component {
             .then(() => {
                 console.log('Write: ' + key);
                 this.readBluetoothData()
-            })
+                console.log("adding listener")
+                bleManagerEmitter.addListener(
+                    'BleManagerDidUpdateValueForCharacteristic',
+                    ({ value, peripheral, characteristic, service }) => {
+                        // Convert bytes array to string
+                        const data = bytesToString(value);
+                        console.log(`Recieved ${data} for characteristic ${characteristic}`);
+                    }
+                );            })
             .catch((error) => {
                 console.log(error);
             })
     }
+
+/*Mettre le constructeur en async et mettre await devant .start */
+
 
     constructor(props) {
         super(props)
         this.state = {
             isInfoLoaded: false,
             distance: 0,
+            isPopupVisible: false,
         };
 
         this.getCollarInfos = this.getCollarInfos.bind(this)
+        this.hidePopup = this.hidePopup.bind(this)
 
+
+        /*
         BleManager.start({showAlert: false})
             .then(() => {
                 console.log('Module initialized');
@@ -92,6 +113,7 @@ class DashboardView extends React.Component {
                             .then((peripheralInfo) => {
                                 console.log('Peripheral info:', peripheralInfo);
                                 this.getCollarInfos()
+
                             }).catch((error) => {
                             console.log(error);
                         });
@@ -102,6 +124,28 @@ class DashboardView extends React.Component {
             }).catch((error) => {
             console.log(error);
         });
+    }
+    */
+    }
+
+    hidePopup()
+    {
+        console.log("hiding Popup")
+        this.setState({
+            isPopupVisible: false,
+        })    }
+
+    showRoundMenuOrPopup()
+    {
+        if (!this.state.isPopupVisible)
+            return (
+                <RoundMenu navigation={this.props.navigation}/>
+            )
+        else
+            return (
+            <Popup onPress={this.hidePopup}/>
+            )
+
     }
 
     render() {
@@ -132,8 +176,7 @@ class DashboardView extends React.Component {
                                  detailedActivity={'tempView'} navigation={this.props.navigation}/>
 
                 </ScrollView>
-                    <Popup/>
-                    <RoundMenu navigation={this.props.navigation}/>
+                    {this.showRoundMenuOrPopup()}
                 </View>
             )
     }

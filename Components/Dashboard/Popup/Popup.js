@@ -3,6 +3,8 @@ import {StyleSheet, View, Text, Image, TouchableOpacity, TouchableWithoutFeedbac
 import Icon from '@expo/vector-icons/FontAwesome'
 import globalStyle from "../../../styles";
 import { LinearGradient } from 'expo';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons'
+
 
 
 export default class Popup extends React.Component {
@@ -22,8 +24,8 @@ export default class Popup extends React.Component {
 
 
                 <TouchableWithoutFeedback
-                    onPress={() => this.test()} >
-                <View style={{flex: 1, backgroundColor: 'rgba(0,0, 0,0)'}} />
+                    onPress={() => this.props.onPress()} >
+                <View style={{flex: 1, backgroundColor: 'rgba(0, 0, 0, 0)'}} />
                 </TouchableWithoutFeedback>
 
                 {/* Popup */}
@@ -32,11 +34,11 @@ export default class Popup extends React.Component {
                     {/* Header */}
 
 
-                    <View style={{height: 60, backgroundColor: 'rgba(0,0,0,0)', borderTopLeftRadius: 20, borderTopRightRadius: 20, overflow:'hidden'}}>
+                    <View style={{height: 80, backgroundColor: '#fff', borderTopLeftRadius: 20, borderTopRightRadius: 20, overflow:'hidden'}}>
                         <LinearGradient
                             colors={[globalStyle.secondaryColor, '#fff']}
                             style={{
-                                height: 60,
+                                height: 120,
                                 borderTopLeftRadius: 20,
                                 overflow: 'hidden',
                                 position: 'absolute',
@@ -48,12 +50,12 @@ export default class Popup extends React.Component {
                         />
                         <View style={{flex: 1, paddingBottom:20, flexDirection: 'row', justifyContent: 'space-between', overflow: 'hidden',
                         }}>
-                            <View style={{ flex: 1, paddingLeft: 4 , justifyContent: 'center'}}>
+                            <View style={{ flex: 1, paddingLeft: 4, justifyContent: 'center'}}>
                                 <Icon.Button name="arrow-left"
                                              backgroundColor={globalStyle.transparent}
                                              underlayColor={globalStyle.transparent}
                                              color={globalStyle.fontColor}
-                                             onPress={() => this.test()}
+                                             onPress={() => this.props.onPress()}
                                 >
                                 </Icon.Button>
                             </View>
@@ -88,16 +90,17 @@ export default class Popup extends React.Component {
                     </View>
                 </View>
 
+                {/* Quit Button */}
+
                 <View style={{position:'absolute', left: 0, top: '85%', bottom: 0, right: 0, alignItems: 'center', justifyContent: 'center'}}>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={this.props.onPress}>
                         <View style={{backgroundColor: globalStyle.borderColor, width: 50, height:50, borderRadius: 25, alignItems: 'center', justifyContent: 'center'}}>
-                            <Icon name="times"
+                            <MaterialIcons name="clear"
                                   backgroundColor={globalStyle.transparent}
                                   size={30}
                                   color={globalStyle.fontColor}
                             >
-
-                            </Icon>
+                            </MaterialIcons>
                         </View>
                     </TouchableOpacity>
 
@@ -128,7 +131,7 @@ const styles = StyleSheet.create({
         marginLeft: '5%',
         marginRight: '5%' ,
         marginTop: '5%',
-        backgroundColor: '#f9f9f9',
+        backgroundColor: '#fff',
         borderRadius: 20,
     },
 
