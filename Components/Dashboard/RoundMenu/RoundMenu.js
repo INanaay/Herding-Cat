@@ -39,13 +39,13 @@ export default class RoundMenu extends React.Component {
             Animated.spring(
                 this.springValue,
                 {
-                    toValue: 4,
+                    toValue: 2,
                     friction: 5
                 }
             ).start()
             this.setState({
-                width: 100,
-                height: 100,
+                width: 150,
+                height: 150,
                 isOpen: true
             })
         }
@@ -74,7 +74,7 @@ export default class RoundMenu extends React.Component {
             <TouchableOpacity
                 onPress={() => this.navigateTo(title)}
                 style={{
-                    flexDirection: 'row', padding: 2, justifyContent: 'space-between', alignItems: 'center'
+                    flexDirection: 'row', padding: 8, justifyContent: 'space-between', alignItems: 'center'
                 }}>
                 <Text style={styles.menuOptionText}>{title}</Text>
                 {this.displayIcon(title)}
@@ -105,7 +105,7 @@ export default class RoundMenu extends React.Component {
     {
         if (iconType) {
             return (
-                <Image source={MenuIcons.icons.social} style={{height: 5, width: 5, marginHorizontal: 2 }}/>
+                <Image source={MenuIcons.icons.social} style={{height: 10, width: 10, marginLeft: 10 }}/>
             )
         }
     }
@@ -113,13 +113,13 @@ export default class RoundMenu extends React.Component {
     displayOpen()
     {
         return (
-            <View style={{flex: 1, margin: 6, paddingRight: 10, paddingTop: 5, alignItems: 'flex-end', justifyContent: 'space-between'}}>
+            <View style={{flex: 1, margin: 6, paddingRight: 5, paddingTop: 5, alignItems: 'flex-end', justifyContent: 'space-between'}}>
                 {this.displayMenuOption("Social")}
                 {this.displayMenuOption("Challenges")}
                 {this.displayMenuOption("Tips")}
                 <TouchableOpacity
                     onPress={() => this.closeMenu()}>
-                    <Ionicons style={{margin: 2, marginBottom: '40%'}} name={"clear"}  size={5} color="#FFF" />
+                    <Ionicons style={{margin: 6, marginBottom: '40%'}} name={"clear"}  size={10} color="#FFF" />
                 </TouchableOpacity>
 
 
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     },
     menuOptionText : {
         textAlign: 'right',
-        fontSize: 5,
+        fontSize: 10,
         color: '#FFF'
     }
 })

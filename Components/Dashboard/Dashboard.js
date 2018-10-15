@@ -26,11 +26,6 @@ import { bytesToString } from 'convert-string';
 import Popup from "./Popup/Popup";
 
 
-
-const BleManagerModule = NativeModules.BleManager;
-const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
-
-
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
@@ -74,14 +69,7 @@ class DashboardView extends React.Component {
                 console.log('Write: ' + key);
                 this.readBluetoothData()
                 console.log("adding listener")
-                bleManagerEmitter.addListener(
-                    'BleManagerDidUpdateValueForCharacteristic',
-                    ({ value, peripheral, characteristic, service }) => {
-                        // Convert bytes array to string
-                        const data = bytesToString(value);
-                        console.log(`Recieved ${data} for characteristic ${characteristic}`);
-                    }
-                );            })
+            })
             .catch((error) => {
                 console.log(error);
             })
@@ -89,14 +77,14 @@ class DashboardView extends React.Component {
 
 /*Mettre le constructeur en async et mettre await devant .start */
 
-
     constructor(props) {
         super(props)
         this.state = {
             isInfoLoaded: false,
             distance: 0,
-            isPopupVisible: false,
+            isPopupVisible: true,
         };
+
 
         this.getCollarInfos = this.getCollarInfos.bind(this)
         this.hidePopup = this.hidePopup.bind(this)

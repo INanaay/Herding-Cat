@@ -1,5 +1,5 @@
 import React from 'react'
-import {StyleSheet, View, Text, Image, TouchableOpacity, TouchableWithoutFeedback} from 'react-native'
+import {StyleSheet, View, Text, Image, TouchableOpacity, TouchableWithoutFeedback, TouchableHighlight} from 'react-native'
 import Icon from '@expo/vector-icons/FontAwesome'
 import globalStyle from "../../../styles";
 import { LinearGradient } from 'expo';
@@ -9,9 +9,11 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 
 export default class Popup extends React.Component {
 
-    test() {
-        console.log("Yo")
 
+
+    onArrowPress() {
+        console.log("Yo")
+        this.props.onPress()
     }
 
     render() {
@@ -50,16 +52,19 @@ export default class Popup extends React.Component {
                         />
                         <View style={{flex: 1, paddingBottom:20, flexDirection: 'row', justifyContent: 'space-between', overflow: 'hidden',
                         }}>
-                            <View style={{ flex: 1, paddingLeft: 4, justifyContent: 'center'}}>
-                                <Icon.Button name="arrow-left"
+                            <TouchableOpacity
+                                onPress={this.props.onPress}
+                                style={{width: 50,justifyContent: 'center', alignItems: 'center'}}>
+                            <View style={{flex: 1, paddingLeft: 4, justifyContent: 'center'}}>
+                                <Icon name="arrow-left"
+                                      size={15 }
                                              backgroundColor={globalStyle.transparent}
-                                             underlayColor={globalStyle.transparent}
                                              color={globalStyle.fontColor}
-                                             onPress={() => this.props.onPress()}
                                 >
-                                </Icon.Button>
+                                </Icon>
                             </View>
-                            <View style={{ flex: 1, justifyContent: 'center'}}>
+                            </TouchableOpacity>
+                            <View style={{ flex: 1, marginLeft: 50, justifyContent: 'center'}}>
                                 <Text style={{ textAlign:'center', color: globalStyle.fontColor}}>BE CAREFUL !</Text>
                             </View>
                             <View
