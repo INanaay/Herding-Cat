@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="50px" viewBox="0 0 52 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-125.0%" y="-125.0%" width="350.0%" height="350.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-20.000000, -575.000000)">
+            <g id="maps-cat" transform="translate(20.000000, 447.000000)">
+                <g id="CONTROLS-MAP" transform="translate(9.000000, 139.000000)">
+                    <g id="Group" transform="translate(0.000000, 8.000000)">
+                        <g id="Oval-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#9B9B9B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="+" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="6.33105469" y="19">+</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -15,14 +15,14 @@ export default class BasicActivity extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={this.props.header}
+                <DashboardComponentHeader name={this.props.name} text={'Activity'}
                                           navigation={this.props.navigation}
-                                          detailedActivity={this.props.detailedActivity}
+                                          detailedActivity={'ActivityActivity'}
                 />
                 <View style={{alignItems:'center'}}>
-              <View style={globalStyle.graphContainer} >
+                    <View style={globalStyle.graphContainer} >
 
-                  <YAxis data={data}
+                        <YAxis data={data}
                          contentInset={ contentInset }
                          svg={{
                              fill: 'white',
@@ -30,28 +30,27 @@ export default class BasicActivity extends React.Component {
                          }}
                          numberOfTicks={ 10 }
                          formatLabel={ value => `${value}` }
-                  />
+                        />
 
-                  <BarChart
+                        <BarChart
                       style={{ flex: 1, marginLeft: 16 }}
                       data={ data }
                       svg={{fill}}
                       contentInset={ contentInset }
-                  >
-                      <Grid/>
-                  </BarChart>
+                        >
+                            <Grid/>
+                        </BarChart>
 
-                  <XAxis
+                        <XAxis
                       data={ data }
                       formatLabel={ (value, index) => index }
                       spacingInner={0.02}
                       spacingOuter={0}
                       contentInset={{ left: 10, right: 10 }}
                       svg={{ fontSize: 3, fill: 'black' }}
-                  />
-
-              </View>
-            </View>
+                        />
+                    </View>
+                </View>
             </View>
         )
     }

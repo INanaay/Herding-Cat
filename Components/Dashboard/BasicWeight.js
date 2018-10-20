@@ -27,8 +27,8 @@ export default class BasicWeight extends React.Component {
     render() {
         return (
             <View style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation}
-                                          detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={'Weight'} navigation={this.props.navigation}
+                                          detailedActivity={'tempView'}/>
 
                 <View style={{flex:1, flexDirection: 'row', justifyContent: 'center',}}>
                     <TextInput ref={(ref)=>{this.textInput = ref}}

@@ -11,7 +11,6 @@ import expolib_v1.okhttp3.OkHttpClient;
 // Needed for `react-native link`
 // import com.facebook.react.ReactApplication;
 import it.innove.BleManagerPackage;
-import com.polidea.reactnativeble.BlePackage;
 
 public class MainApplication extends ExpoApplication {
 
@@ -28,8 +27,7 @@ public class MainApplication extends ExpoApplication {
 
         // Needed for `react-native link`
         // new MainReactPackage(),
-            new BleManagerPackage(),
-            new BlePackage()
+            new BleManagerPackage()
     );
   }
 
@@ -38,7 +36,7 @@ public class MainApplication extends ExpoApplication {
     return getString(R.string.gcm_defaultSenderId);
   }
 
-  @Override
+  @Override 
   public boolean shouldUseInternetKernel() {
     return BuildVariantConstants.USE_INTERNET_KERNEL;
   }

@@ -37,7 +37,7 @@ export default class BasicMap extends React.Component {
 
         return (
             <View  style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}
+                <DashboardComponentHeader name={this.props.name} text={'Day'} navigation={this.props.navigation} detailedActivity={'MapActivity'}
                 />
                 <View style={styles.container}>
                     <MapView style={styles.map}

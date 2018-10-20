@@ -24,13 +24,13 @@ export default class BasicActivity extends React.Component {
     }
 
     navigateToDetailedActivity() {
-        this.props.navigation.navigate(this.props.detailedActivity);
+        this.props.navigation.navigate('MeetingsActivity');
     }
 
     render() {
         return (
             <View style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation} detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={'Meetings'} navigation={this.props.navigation} detailedActivity={'MeetingsActivity'}/>
                 <View style={{alignItems:'center'}}>
                     <TouchableOpacity style={style.friendButton}
                                       onPress={() => this.navigateToDetailedActivity()}>
@@ -39,7 +39,7 @@ export default class BasicActivity extends React.Component {
                 </View>
                 <View style={{marginVertical: 10}}>
                     <Friend name={"Test"} time={"4h30"}/>
-                    <Friend name={"GrosPD"} time={"16h69"} />
+                    <Friend name={"Hey"} time={"16h69"} />
                 </View>
             </View>
         )

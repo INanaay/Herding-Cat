@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text, View, TouchableOpacity, StyleSheet} from 'react-native'
+import {Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native'
 import {createMaterialTopTabNavigator} from 'react-navigation'
 import globalStyle from '../../../styles'
 
@@ -27,6 +27,8 @@ export default class GraphTab extends React.Component {
             secondButtonColor: unClickedColor,
             thirdButtonColor: unClickedColor
         })
+        this.props.callback(1)
+
     }
 
     onSecondButtonPress() {
@@ -35,6 +37,7 @@ export default class GraphTab extends React.Component {
             secondButtonColor: clickedColor,
             thirdButtonColor: unClickedColor
         })
+        this.props.callback(2)
     }
 
     onThirdButtonPress() {
@@ -43,6 +46,8 @@ export default class GraphTab extends React.Component {
             secondButtonColor: unClickedColor,
             thirdButtonColor: clickedColor
         })
+        this.props.callback(3)
+
     }
 
 
@@ -84,12 +89,11 @@ export default class GraphTab extends React.Component {
                        </TouchableOpacity>
 
                    </View>
+                       <Image style={{flex: 1, height: null, width: '100%'}}
+                           source={require("../../../Resources/Images/activity_barchart.png")}/>
 
                </View>
-                <View style={style.graphContainer}>
-                    <Text>Yo</Text>
 
-                </View>
             </View>
         )
     }
@@ -99,10 +103,10 @@ const style= StyleSheet.create ({
     view: {
         height: 200,
         alignItems: 'center',
-        padding:10,
+        margin:10,
     },
     container: {
-        backgroundColor: '#8c8c92',
+        backgroundColor: globalStyle.backgroundColor,
         width: '100%',
         height: '100%',
         borderTopLeftRadius: 10,
@@ -112,7 +116,7 @@ const style= StyleSheet.create ({
     graphContainer: {
         flex: 1,
         height: '100%',
-        backgroundColor: '#FFF'
+        backgroundColor: '#2afcff'
     },
     button: {
         flex:1,

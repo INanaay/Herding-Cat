@@ -24,6 +24,9 @@ import Social from "./RoundMenu/Social";
 import Challenges from "./RoundMenu/Challenges";
 import { bytesToString } from 'convert-string';
 import Popup from "./Popup/Popup";
+import PawMenu from "./PawMenu/PawMenu";
+import Journal from "./PawMenu/Journal";
+import HistoricActivity from "../Activities/Activity/HistoricActivity";
 
 
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
@@ -82,13 +85,13 @@ class DashboardView extends React.Component {
         this.state = {
             isInfoLoaded: false,
             distance: 0,
-            isPopupVisible: true,
+            isPopupVisible: false,
         };
 
 
         this.getCollarInfos = this.getCollarInfos.bind(this)
         this.hidePopup = this.hidePopup.bind(this)
-
+        this.showPopup = this.showPopup.bind(this)
 
         /*
         BleManager.start({showAlert: false})
@@ -121,7 +124,15 @@ class DashboardView extends React.Component {
         console.log("hiding Popup")
         this.setState({
             isPopupVisible: false,
-        })    }
+        })
+    }
+
+    showPopup()
+    {
+        this.setState({
+            isPopupVisible: true,
+        })
+    }
 
     showRoundMenuOrPopup()
     {
@@ -133,7 +144,6 @@ class DashboardView extends React.Component {
             return (
             <Popup onPress={this.hidePopup}/>
             )
-
     }
 
     render() {
@@ -141,29 +151,25 @@ class DashboardView extends React.Component {
                 <View>
 
                     <ScrollView style={{backgroundColor: globalStyle.backgroundColor}}>
-                    <ProfilePicture state={this.state} onPress={this.getCollarInfos}/>
-                    <BasicInfo navigation={this.props.navigation} loaded={this.state.isInfoLoaded} distance={this.state.distance}/>
 
-                    <BasicMap name={catName} header={`Day`}
-                              detailedActivity={'MapActivity'} navigation={this.props.navigation}
-                    />
+                        <ProfilePicture state={this.state} onPress={this.getCollarInfos} showPopup={this.showPopup}/>
+                        <BasicInfo navigation={this.props.navigation} loaded={this.state.isInfoLoaded} distance={this.state.distance}/>
 
-                    <BasicActivity name={catName} header={`Activity`}
-                                   detailedActivity={'ActivityActivity'} navigation={this.props.navigation}/>
+                        <BasicMap name={catName} navigation={this.props.navigation}/>
 
-                    <BasicMeetings name={catName} header={`Meetings`}
-                                   detailedActivity={'MeetingsActivity'} navigation={this.props.navigation}/>
+                        <BasicActivity name={catName} navigation={this.props.navigation}/>
 
-                    <BasicSleep name={catName} header={`Sleep`}
-                                detailedActivity={'SleepActivity'} navigation={this.props.navigation}/>
+                        <BasicMeetings name={catName} navigation={this.props.navigation}/>
 
-                    <BasicSpeed name={catName} header={`Speed`}
-                                detailedActivity={'tempView'} navigation={this.props.navigation}/>
+                        <BasicSleep name={catName} navigation={this.props.navigation}/>
 
-                    <BasicWeight name={catName} header={`Weight`} weight={"54"}
-                                 detailedActivity={'tempView'} navigation={this.props.navigation}/>
+                        <BasicSpeed name={catName} navigation={this.props.navigation}/>
+
+                        <BasicWeight name={catName} weight={"54"}
+                                navigation={this.props.navigation}/>
 
                 </ScrollView>
+                    <PawMenu navigation={this.props.navigation}/>
                     {this.showRoundMenuOrPopup()}
                 </View>
             )
@@ -171,6 +177,7 @@ class DashboardView extends React.Component {
 }
 
 export default Dashboard = createStackNavigator ({
+
     Dashboard: {
         screen: DashboardView,
         navigationOptions: globalStyle.navigationOptions
@@ -205,5 +212,9 @@ export default Dashboard = createStackNavigator ({
     Challenges: {
         screen: Challenges,
         navigationOptions: globalStyle.navigationOptions
-    }
+    },
+    Journal: {
+        screen: Journal,
+        navigationOptions: globalStyle.navigationOptions
+    },
 })

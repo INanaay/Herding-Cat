@@ -2,22 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/95b8c8c12073290e662d47ab981f4c79f952baf6/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okio-1.13.0_44284f1513157935212faedbd7dcab8749174fd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="672f2a2eb9d2bb9bea5e537f64541e340d62d503">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/4/classes_b0b111ae42e9b17e63e87fd9579a684ef821cb3f/classes.dex" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_0ff2a909cd5795d2719e6e1b2307dc2e8b53346b.jar" />
     </item>
     <item
         is-multidex="true"
@@ -29,13 +20,13 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_46f24e25f18843441548232f0d98a801997bfd2c/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-27.1.0_cc0379e1f935a1926a4ba40e3eeaaf058653fd21/classes.dex" />
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/okio-1.6.0_dcae84977982cbf14430ea4710bf0c8e770b34e5.jar" />
     </item>
     <item
         is-multidex="true"
@@ -47,13 +38,13 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_5228de981027a6ad546bea7f94499a57512b40bc/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/libs/infer-annotations-4.0.jar"
+        is-multidex="false"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_815c37b3dc27b3f8eb87ff63d983084d4cfed00b/classes.dex" />
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-3.6.0_edb33cf4da8d94f8e6f9336ccab124a0f1ef6d67.jar" />
     </item>
     <item
         is-multidex="true"
@@ -79,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="5204b950841d8022fbbdd306baa6d484ad49f48e">
+        sha1="03ab0b853ea4540412f43b9848573aa72b73a9d8">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_38979e549f4d1beb4a1a2c203cab99e787672efa/classes.dex" />
     </item>
     <item
@@ -101,6 +92,33 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_e89253cc64fb5f065a6107d2a9ae9fcf1ec3fcd6/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/infer-annotations-4.0_f2706a210e02c8941da81752db9a0d1f37474279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-3.0.1_c97ae833ab7b3e1520613da28fb319069852d4ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/3346c1da18a0f6485341427dfe5683656b7a9ba8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_c1888cbe9651aab817f3a8deddd52a35f0072613.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/jars/classes.jar"
         jumboMode="false"
@@ -119,13 +137,13 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_9f3e94d017fa710249f63a693c3f75a559245417/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/jars/classes.jar"
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_d361908b363db6d9849dd6c57aa57051fefd3f83/classes.dex" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/bolts-tasks-1.4.0_793d537d29d402793961505c99a987ca5bdf48dc.jar" />
     </item>
     <item
         is-multidex="true"
@@ -138,12 +156,228 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7721fdd1d59c4b8ae136c087b7590ec69061d97f">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_c34aad63c9ac74105bc03752551bb6b945028362/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxrelay/rxrelay/1.2.0/a53b8b8ef1a5ec8ff75afca24fc689b71892b44f/rxrelay-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a53b8b8ef1a5ec8ff75afca24fc689b71892b44f">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/rxrelay-1.2.0_2fb562e0dff9e90390a84ef8b056561dd4a244f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_fd8872e51bac4c1e6e2bac1c5af351bcc46008af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/bec0278f781855d65fd66ffceab4d8f2fe907d1c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_02a413c25b6c2cf4ce48f4aef53b41aca21d6334.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_674529bac00e28cc0c42e1c3237e5ccb97c7e478/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okhttp-urlconnection-3.6.0_231a41b06013336bce64f12c243e4d328d11a993/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_58a3d6667a5c106bfe407fce938f503cfbc57bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-urlconnection-3.6.0_231a41b06013336bce64f12c243e4d328d11a993.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/e5b9bf7c32ac6ae42cd706c7022254487001d523/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_7751d94c570a86a7e0391194e82125cee4f6cc06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/79fe5e9e4384fc1f8a98e059e8ab59cdbaacdc37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_00d052ee3e3de15ecac45800fdb10981c2acd734.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/1651d7e5e17e7b6d98c4fc65318298c693c43940/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_0dd2fef553ff77794a8c59998096970a153a422f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/jsr305-3.0.0_152bbe3dc669ee26733c65ec0f88b2083154a882.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okio-1.13.0_44284f1513157935212faedbd7dcab8749174fd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="672f2a2eb9d2bb9bea5e537f64541e340d62d503">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/4/classes_b0b111ae42e9b17e63e87fd9579a684ef821cb3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-27.1.0_cc0379e1f935a1926a4ba40e3eeaaf058653fd21/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/1651d7e5e17e7b6d98c4fc65318298c693c43940/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_0dd2fef553ff77794a8c59998096970a153a422f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/okio-1.13.0_44284f1513157935212faedbd7dcab8749174fd4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_815c37b3dc27b3f8eb87ff63d983084d4cfed00b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/379f904f6cfb3e78aaccce94a5ab8fd93cebe3d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_e3fb7096b65614c23e746343500be55f3733d6d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/e5b9bf7c32ac6ae42cd706c7022254487001d523/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/internal_impl-23.0.1_3d45e4041ec1a779a6931424095f9499c6eb5998.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/36c66a28015bfd5f05411938581747231ae8c784/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_c9ddadf76bc166a15d5f231de67be1a4b4cfc044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="00bffcece869fcc14f8c3fe523a11c6c53356b44">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_0f315d60bdea642718326bee171a7230d575ff89.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_d361908b363db6d9849dd6c57aa57051fefd3f83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_6024b6d9919dd74028eebbe3d157b5eb44733b8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c0fd991cca18af61053672f8a544f554f44ef374">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_bf0a15e942f7c9e6415959ceb07e3a61baafe224.jar" />
     </item>
     <item
         is-multidex="true"
@@ -155,6 +389,15 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_1d585cb1464fe70462aca3d46ee79106964cbc0b/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/staticlayout-proxy-1.0_cd9845c23d1fe8b3b715d452ef8e60b40fa9c39a.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/classes.jar"
         jumboMode="false"
@@ -162,15 +405,6 @@
         revision="26.0.1"
         sha1="00bffcece869fcc14f8c3fe523a11c6c53356b44">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_0f315d60bdea642718326bee171a7230d575ff89/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/Missions/Herding/node_modules/react-native-ble-plx/android/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="579e28b3e2fe3a46a13977ae82a94af9d63f5c50">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/4/classes_652a97a062cccfaca55ccf43fd30b4f71832a522/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -189,6 +423,15 @@
         revision="26.0.1"
         sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_f8718f64149d6504e60e186580437806a408d1bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/f09a63981b12828625ab8b06b4030efaa1133b01/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_b29df618753a4c959e85ffaa89b36c1cfdaacbca.jar" />
     </item>
     <item
         is-multidex="true"
@@ -210,39 +453,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7721fdd1d59c4b8ae136c087b7590ec69061d97f">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_c34aad63c9ac74105bc03752551bb6b945028362/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxrelay/rxrelay/1.2.0/a53b8b8ef1a5ec8ff75afca24fc689b71892b44f/rxrelay-1.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a53b8b8ef1a5ec8ff75afca24fc689b71892b44f">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/rxrelay-1.2.0_2fb562e0dff9e90390a84ef8b056561dd4a244f7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/infer-annotations-4.0_674529bac00e28cc0c42e1c3237e5ccb97c7e478/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_6ff355f584fbef76fb03981977518c5665703232/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/1e2bdbdb6e5bf14b3b763255cb4ed808ddcf2ebc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_9e6f2808cf3d3f8efa486aeb3e9455ce4a147432.jar" />
     </item>
     <item
         is-multidex="true"
@@ -255,24 +480,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/NANAA/Missions/Herding/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/okhttp-urlconnection-3.6.0_231a41b06013336bce64f12c243e4d328d11a993/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_58a3d6667a5c106bfe407fce938f503cfbc57bb5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -281,13 +488,22 @@
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_ada3990111288169217c055b823f01e55103f318/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/1651d7e5e17e7b6d98c4fc65318298c693c43940/output/jars/classes.jar"
+        is-multidex="false"
+        jar="/home/NANAA/.android/build-cache/96a031d3b42ca165f99b03114e1bf9f5c8c057b5/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_0dd2fef553ff77794a8c59998096970a153a422f/classes.dex" />
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/classes_5be6475a651f9aca137002083a2a3288e0ccebb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/NANAA/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/pre-dexed/androidTest/debug/support-annotations-23.0.1_899b1c1ce4596bb979486a0299bacdce2c055ad7.jar" />
     </item>
 
 </items>

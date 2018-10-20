@@ -1,4 +1,4 @@
-#Sat Jul 21 17:22:57 CEST 2018
+#Fri Oct 19 19:52:02 CEST 2018
 base.0=/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
 file.0=/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_5/classes.dex

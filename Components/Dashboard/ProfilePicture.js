@@ -1,5 +1,5 @@
 import React from 'react'
-import {ImageBackground, Text, StyleSheet, View, TouchableOpacity, Image} from 'react-native'
+import {ImageBackground, Text, StyleSheet, View, TouchableOpacity, Image, TouchableHighlight} from 'react-native'
 import globalStyle from '../../styles'
 import { LinearGradient } from 'expo';
 
@@ -9,7 +9,11 @@ export default class ProfilePicture extends React.Component {
     showCatName(name = "Hector") {
 
         if (name.endsWith("s"))
-            return <Text style={style.imageText}>{name}' Day</Text>
+            return (
+                <TouchableOpacity onPress={this.props.onPress}>
+                    <Text style={style.imageText}>{name}' Day</Text>
+                </TouchableOpacity>
+            )
         return <Text style={style.imageText}>{name}'s Day</Text>
 
     }
@@ -29,7 +33,9 @@ export default class ProfilePicture extends React.Component {
                         }}
                     />
                     <View style={style.contentContainer}>
-                    {this.showCatName()}
+                        <TouchableOpacity onPress={this.props.showPopup}>
+                            <Text style={style.imageText}>Hector's Day</Text>
+                        </TouchableOpacity>
                     <TouchableOpacity onPress={this.props.onPress}>
                         <Image source={require('../../Resources/Icons/geolocalisation.png')} style={{width: 30, height: 30}}/>
                     </TouchableOpacity>

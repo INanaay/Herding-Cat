@@ -64,8 +64,6 @@
         android:glEsVersion="0x00020000"
         android:required="true" />
 
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"

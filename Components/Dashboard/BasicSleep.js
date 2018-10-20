@@ -14,11 +14,11 @@ export default class BasicSleep extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={this.props.header} navigation={this.props.navigation}
-                                          detailedActivity={this.props.detailedActivity}/>
+                <DashboardComponentHeader name={this.props.name} text={'Sleep'} navigation={this.props.navigation}
+                                          detailedActivity={'SleepActivity'}/>
 
-                <View style={{ height: 240, padding: 20, flex: 1, flexDirection: 'column' }} >
-                    <View style={{flex: 1, flexDirection: 'row'}}>
+                <View style={{alignItems:'center'}}>
+                    <View style={globalStyle.graphContainer} >
                     <YAxis
                         data={ data }s
                         contentInset={ contentInset }
@@ -34,18 +34,11 @@ export default class BasicSleep extends React.Component {
                     data={ data }
                     contentInset={{ top: 30, bottom: 30 }}
                     curve={ shape.curveNatural }
-                    svg={{ fill: 'rgba(134, 65, 244, 0.8)' }}
+                    svg={{ fill: globalStyle.secondaryColor}}
                 >
                     <Grid/>
                 </AreaChart>
                     </View>
-                    <XAxis
-                        style={{ marginHorizontal: -10, marginLeft: 20 }}
-                        data={ data }
-                        formatLabel={ (value, index) => index }
-                        contentInset={{ left: 10, right: 10 }}
-                        svg={{ fontSize: 10, fill: 'black' }}
-                    />
             </View>
             </View>
 

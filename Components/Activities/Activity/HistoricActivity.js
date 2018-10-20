@@ -6,25 +6,74 @@ import globalStyle from '../../../styles'
 import GraphTab from './GraphTab'
 
 
+const dayliList = [
+        {time: '6h04', date: 'Day1'},
+        {time: '6h04', date: 'Day2'},
+        {time: '6h04', date: 'Day3'},
+        {time: '6h04', date: 'Day4'},
+        {time: '6h04', date: 'Day5'},
+        {time: '6h04', date: 'Day6'},
+        {time: '6h04', date: 'Day7'},
+        {time: '6h04', date: 'Day8'},
+    ]
+
+const weeklyList = [
+    {time: '6h04', date: 'week1, 2018'},
+    {time: '6h04', date: 'week2, 2018'},
+    {time: '6h04', date: 'week3, 2018'},
+    {time: '6h04', date: 'week4, 2018'},
+    {time: '6h04', date: 'week5, 2018'},
+    {time: '6h04', date: 'week5, 2018'},
+    {time: '6h04', date: 'week6, 2018'},
+    {time: '6h04', date: 'week7, 2018'},
+    ]
+
+const monthlyList = [
+    {time: '6h04', date: 'December, 2018'},
+    {time: '6h04', date: 'January, 2019'},
+    {time: '6h04', date: 'February, 2019'},
+    {time: '6h04', date: 'March, 2019'},
+    {time: '6h04', date: 'April, 2019'},
+    {time: '6h04', date: 'June, 2019'},
+    {time: '6h04', date: 'July, 2019'},
+    {time: '6h04', date: 'August, 2019'},
+]
+
 export default class HistoricActivity extends React.Component {
+
+
     constructor(props) {
         super(props)
         this.state = {
-            list: [{time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '4h36', date: 'November, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-                {time: '6h04', date: 'October, 2018'},
-            ],
+            list: dayliList,
+        }
+        this.setListData = this.setListData.bind(this)
+
+    };
+
+
+
+
+    setListData(list) {
+
+        switch (list) {
+            case 1 :
+                this.setState({
+                    list: dayliList
+                })
+                break;
+            case 2:
+                this.setState({
+                    list: weeklyList
+                })
+                break;
+            case 3:
+                this.setState({
+                    list: monthlyList
+                })
+                break;
+            default:
+                break;
         }
     }
 
@@ -34,9 +83,9 @@ export default class HistoricActivity extends React.Component {
 
         return (
             <View style={{backgroundColor: globalStyle.backgroundColor, height: '100%'}}>
-            <ActivityHeader title={"activity"} navigation={this.props.navigation}/>
-                <View >
-                    <GraphTab/>
+            <ActivityHeader title={"history"} navigation={this.props.navigation}/>
+                <View style={{marginTop: 20}} >
+                    <GraphTab callback={this.setListData}/>
                 </View>
                 <View>
                 <View style={style.border}>

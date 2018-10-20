@@ -32,12 +32,12 @@
         "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/crop_image_menu_flip.png",
         "source": "/home/NANAA/.android/build-cache/88b04acb41be21b2668fe94bd27b99d644d16f1a/output/res/drawable-hdpi-v4/crop_image_menu_flip.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -56,12 +56,12 @@
         "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable-hdpi-v4/btn_default_focused_holo_dark.9.png"
     },
     {
-        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/textfield_disabled_focused_holo_dark.9.png",
         "source": "/home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/res/drawable-hdpi-v4/textfield_disabled_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -104,12 +104,12 @@
         "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png",
-        "source": "/home/NANAA/.android/build-cache/5805e33b67fde08ce4f8959e25b7482e757ea7ac/output/res/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png"
-    },
-    {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/com_facebook_button_icon_white.png",
         "source": "/home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/res/drawable-hdpi-v4/com_facebook_button_icon_white.png"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png",
+        "source": "/home/NANAA/.android/build-cache/5805e33b67fde08ce4f8959e25b7482e757ea7ac/output/res/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png"
     },
     {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable-hdpi-v4/textfield_activated_holo_dark.9.png",

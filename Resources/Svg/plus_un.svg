@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="39px" viewBox="0 0 40 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>+1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-286.000000, -203.000000)">
+            <g id="+1" transform="translate(286.000000, 203.000000)">
+                <polygon id="Star" fill-opacity="0.5" fill="#35C5A5" points="20 35.8255932 14.3074065 39 11.2607949 33.2979549 4.72957763 32.9368717 5.29622572 26.5175473 -1.92901251e-14 22.7356154 4.00000095 17.6371019 1.62028106 11.635058 7.78366283 9.47609742 9.07599301 3.15954806 15.4459254 4.62559505 20 0 24.5540746 4.62559505 30.924007 3.15954806 32.2163372 9.47609742 38.3797189 11.635058 35.999999 17.6371019 40 22.7356154 34.7037743 26.5175473 35.2704224 32.9368717 28.7392051 33.2979549 25.6925935 39"></polygon>
+                <text font-family="Roboto-Regular, Roboto" font-size="15" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="11.0368652" y="25">+1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

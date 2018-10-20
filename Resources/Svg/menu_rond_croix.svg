@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dashboard-Menu" transform="translate(-305.000000, -594.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="MENU" transform="translate(85.000000, 279.000000)">
+                <g id="burger" transform="translate(221.000000, 316.000000)">
+                    <path d="M0.0138528242,0.190323412 L16.1104471,16.2869176" id="Line-Copy-7"></path>
+                    <path d="M0.0138528242,16.2214413 L16.1104471,0.124847057" id="Line-Copy-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

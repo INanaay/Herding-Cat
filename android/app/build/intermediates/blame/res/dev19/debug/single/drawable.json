@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
         "source": "/home/NANAA/.android/build-cache/0860c7e62de8b4902f2f0d518914484a33dc4e25/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "/home/NANAA/Missions/Herding/android/app/build/intermediates/res/merged/dev19/debug/drawable/common_google_signin_btn_icon_light.xml",
