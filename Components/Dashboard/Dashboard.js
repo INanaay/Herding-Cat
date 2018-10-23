@@ -26,7 +26,7 @@ import { bytesToString } from 'convert-string';
 import Popup from "./Popup/Popup";
 import PawMenu from "./PawMenu/PawMenu";
 import Journal from "./PawMenu/Journal";
-import HistoricActivity from "../Activities/Activity/HistoricActivity";
+import SpeedActivity from "../Activities/Speed/SpeedActivity";
 
 
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
@@ -176,10 +176,17 @@ class DashboardView extends React.Component {
     }
 }
 
+
+//TODO Create stack navigator for each activity
+
 export default Dashboard = createStackNavigator ({
 
     Dashboard: {
         screen: DashboardView,
+        navigationOptions: globalStyle.navigationOptions
+    },
+    SpeedActivity: {
+        screen: SpeedActivity,
         navigationOptions: globalStyle.navigationOptions
     },
     ActivityActivity: {

@@ -19,7 +19,8 @@ export default class SocialActivity extends React.Component {
     render() {
         return (
             <View style={globalStyle.dashboardBorder}>
-                <ComponentHeader title={"Social Activities"}/>
+                <ComponentHeader title={"Social Activities"} detailedActivity={this.props.detailedActivity}
+                                 navigation={this.props.navigation}/>
                 <Social name={"Hector"} time={"12 minutes"} cat={"Paachu"}/>
                 <Social name={"Taco"} time={"1 hour"} cat={"Yuna"}/>
             </View>

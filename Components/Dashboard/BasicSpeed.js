@@ -13,7 +13,7 @@ export default class BasicSpeed extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <DashboardComponentHeader name={this.props.name} text={'Speed'} navigation={this.props.navigation} detailedActivity={'tempView'}/>
+                <DashboardComponentHeader name={this.props.name} text={'Speed'} navigation={this.props.navigation} detailedActivity={'SpeedActivity'}/>
                 <View style={{marginBottom: 20}}>
                 <ProgressChart
                     data={data}

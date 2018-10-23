@@ -17,9 +17,12 @@ class ActivityActivity extends React.Component {
                 <ActivityHeader title={"activity"} navigation={this.props.navigation}/>
                 <GlobalActivity detailedActivity={'HistoricActivity'}
                                 navigation={this.props.navigation}/>
-                <SocialActivity/>
-                <DayAllocation/>
-                <Stationary/>
+                <SocialActivity detailedActivity={'tempView'}
+                                navigation={this.props.navigation}/>
+                <DayAllocation detailedActivity={'tempView'}
+                               navigation={this.props.navigation}/>
+                <Stationary detailedActivity={'tempView'}
+                            navigation={this.props.navigation}/>
             </ScrollView>
         )
     }

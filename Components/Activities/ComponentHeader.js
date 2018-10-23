@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text, View, StyleSheet} from 'react-native'
+import {Text, View, StyleSheet, TouchableOpacity} from 'react-native'
 import globalStyle from "../../styles";
 import Icon from '@expo/vector-icons/Entypo'
 
@@ -21,14 +21,14 @@ export default class ComponentHeader extends React.PureComponent {
         return (
             <View style={styles.container}>
                 <Text style={styles.text}>{this.props.title}</Text>
-                <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                <TouchableOpacity style={{flexDirection: 'row', alignItems: 'center'}} onPress={() => this.navigateTo()}>
                     <Text style={styles.rightText}>View history</Text>
                     <Icon.Button name="chevron-thin-right"
                              backgroundColor={globalStyle.transparent}
                              color={globalStyle.secondaryColor}
-                             onPress={() => this.navigateTo()}>
+                             >
                     </Icon.Button>
-                </View>
+                </TouchableOpacity>
             </View>
         )
     }

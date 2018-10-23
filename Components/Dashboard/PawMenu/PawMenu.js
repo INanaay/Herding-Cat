@@ -2,8 +2,8 @@ import React from 'react'
 import {StyleSheet, View, Text, Dimensions, Image, TouchableOpacity} from 'react-native'
 import globalStyle from '../../../styles'
 import SlidingPanel from 'react-native-sliding-up-down-panels';
-import FlexImage from 'react-native-flex-image'
-import BasicInfo from "../BasicInfo";
+import SvgUri from 'react-native-svg-uri';
+
 
 const { width, height } = Dimensions.get('window');
 

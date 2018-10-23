@@ -25,7 +25,8 @@ export default class DayAllocation extends React.PureComponent {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <ComponentHeader title={"Day Allocation"}/>
+                <ComponentHeader title={"Day Allocation"} detailedActivity={this.props.detailedActivity}
+                                 navigation={this.props.navigation}/>
                 <View style={{alignItems: 'center', justifyContent: 'center'}}>
                 <ProgressBar progress={0.3} width={progressBarWidth} height={40}
                              color={globalStyle.secondaryColor}

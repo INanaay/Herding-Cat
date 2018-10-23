@@ -36,7 +36,8 @@ export default class Stationary extends React.Component {
 
         return (
             <View style={globalStyle.dashboardBorder}>
-                <ComponentHeader title={"longest stationary period"}/>
+                <ComponentHeader title={"longest stationary period"} detailedActivity={this.props.detailedActivity}
+                                 navigation={this.props.navigation}/>
                 <Inactivity time={"3h27"} progress={0.5} color={globalStyle.secondaryColor}/>
                 <Inactivity time={"4h56"} progress={0.8} color={'#baffee'}/>
 

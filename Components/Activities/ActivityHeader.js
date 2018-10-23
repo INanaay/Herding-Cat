@@ -26,9 +26,7 @@ export default class ActivityHeader extends React.Component {
 
                 </View>
                 <View style={{width: '10%'}}/>
-                <View style={styles.imageContainer}>
 
-                </View>
             </View>
             </View>
                 <Image
@@ -45,15 +43,6 @@ const styles =  StyleSheet.create ({
         color: globalStyle.fontColor,
         textAlign: 'center',
         alignSelf: 'center'
-    },
-    imageContainer: {
-        position: 'absolute',
-        top: 60,
-        bottom: 0,
-        left: 0,
-        right: 0,
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     image: {
         width: 120,
