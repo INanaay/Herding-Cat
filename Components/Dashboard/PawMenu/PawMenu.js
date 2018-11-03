@@ -29,7 +29,7 @@ export default class PawMenu extends React.Component
     {
         return(
             <SlidingPanel
-                headerLayoutHeight = {50}
+                headerLayoutHeight = {100}
                 panelPosition={"top"}
                 AnimationSpeed={500}
                 onDragStart={this.test}
@@ -42,7 +42,7 @@ export default class PawMenu extends React.Component
                 slidingPanelLayout = { () =>
                     <View style={styles.slidingPanelLayoutStyle}>
                         <View style={{flex: 3, justifyContent: 'center', alignItems: 'center', marginTop: 150}}>
-                            <Image style={{flex: 0, width: 20, height: 20}} source={require("../../../Resources/Icons/battery.png")} resizeMode={"contain"}/>
+                            <Image style={{flex: 0, width: 30, height: 30}} source={require("../../../Resources/Icons/battery.png")} resizeMode={"contain"}/>
                             <Image style={styles.imageStyle} source={require("../../../Resources/Icons/avatar_01.png")}/>
                             <View style={{flex:1, flexDirection: 'row'}}>
                                 <Text style={styles.editTextStyle}>Edit Profile</Text>
@@ -54,18 +54,18 @@ export default class PawMenu extends React.Component
 
                         <TouchableOpacity style={{flex: 1}} onPress={() => this.navigateTo("Journal")}>
                         <View style={styles.cellStyle}>
-                            <Image source={require("../../../Resources/Icons/journal.png")} style={styles.cellIconStyle} />
+                            <SvgUri source={require("../../../Resources/Svg/journal.svg")} width={35} height={35} style={{marginLeft: 20}} />
                             <Text style={styles.cellTextStyle}>SEE DAILY JOURNAL</Text>
                         </View>
                         </TouchableOpacity>
 
                         <View style={styles.cellStyle}>
-                            <Image source={require("../../../Resources/Icons/alerts.png")} style={styles.cellIconStyle} />
+                            <SvgUri source={require("../../../Resources/Svg/alerte.svg")} width={35} height={35} style={{marginLeft: 20}} />
                             <Text style={styles.cellTextStyle}>ADD ALERT</Text>
                         </View>
 
+
                         <View style={{flex: 2, justifyContent: 'center', alignItems: 'center', borderTopWidth: 0.2, borderColor: globalStyle.borderColor}}>
-                            <Image resizeMode={"contain"} style={styles.backButtonStyle} source={require('../../../Resources/Icons/patte_verte.png')} />
                         </View>
                     </View>
                 }
@@ -80,8 +80,6 @@ const styles = StyleSheet.create({
     },
     cellIconStyle :{
         marginLeft: 20,
-        height: 50,
-        width: 50
     },
     backButtonStyle:{
         flex: 0,

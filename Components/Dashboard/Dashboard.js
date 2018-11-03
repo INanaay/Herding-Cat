@@ -27,56 +27,88 @@ import Popup from "./Popup/Popup";
 import PawMenu from "./PawMenu/PawMenu";
 import Journal from "./PawMenu/Journal";
 import SpeedActivity from "../Activities/Speed/SpeedActivity";
-
+import HistoricActivity from "../Activities/Activity/HistoricActivity";
+var TimerMixin = require('react-timer-mixin');
 
 const serviceUUID= '80dc4c84-831a-4937-9058-2cf0bf28b8c8'
 const characteristicUUID='4d8b9541-0159-4b4c-801a-03ec5520bd8a'
 const catName='Hector'
-const id="30:AE:A4:1B:9F:76"
+const id="30:AE:A4:03:BA:46"
+const id2="30:AE:A4:1B:9F:76"
+
+
+const BleManagerModule = NativeModules.BleManager;
+const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
+
 
 
 class DashboardView extends React.Component {
+
+    readingThread()
+    {
+        if (!this.state.isPopupVisible) {
+            BleManager.read(id, serviceUUID, characteristicUUID)
+                .then((readData) => {
+                    const data = bytesToString(readData)
+                    console.log(data)
+
+                    if (data === "CHOC")
+                    {
+                        console.log("Le chat s'est pris une voiture")
+                        this.setState({
+                            isPopupVisible: true
+                        })
+                    }
+
+                })
+                .catch((error) => {
+                    console.log("Reading thread : " + error)
+                })
+        }
+    }
 
     readBluetoothData()
     {
         BleManager.read(id, serviceUUID, characteristicUUID)
             .then((readData) => {
                 // Success code
-                console.log('Read: ' + readData);
                 const data = bytesToString(readData)
-                console.log(data)
+                console.log("READ " + data)
                 this.setState({
                     distance: data,
                     isInfoLoaded: true,
+                    interval: TimerMixin.setInterval(this.readingThread.bind(this), 1000)
                 })
-                console.log("State distance = " + this.state.distance)
 
             })
             .catch((error) => {
                 // Failure code
-                console.log(error);
+                console.log("Readi ng data : " + error);
             });
     }
 
     async getCollarInfos()
     {
 
+        TimerMixin.clearInterval(this.state.interval)
+
         this.setState({
             isInfoLoaded: false,
+
         })
 
-        const key = stringToBytes("Yo");
+        const key = stringToBytes("DIST");
 
         BleManager.write(id, serviceUUID, characteristicUUID, key)
             .then(() => {
-                console.log('Write: ' + key);
                 this.readBluetoothData()
-                console.log("adding listener")
             })
             .catch((error) => {
                 console.log(error);
             })
     }
+
+
 
 /*Mettre le constructeur en async et mettre await devant .start */
 
@@ -86,14 +118,19 @@ class DashboardView extends React.Component {
             isInfoLoaded: false,
             distance: 0,
             isPopupVisible: false,
+            interval: undefined
         };
+
 
 
         this.getCollarInfos = this.getCollarInfos.bind(this)
         this.hidePopup = this.hidePopup.bind(this)
         this.showPopup = this.showPopup.bind(this)
 
-        /*
+
+
+
+
         BleManager.start({showAlert: false})
             .then(() => {
                 console.log('Module initialized');
@@ -102,9 +139,8 @@ class DashboardView extends React.Component {
                         console.log("Connected");
                         BleManager.retrieveServices(id)
                             .then((peripheralInfo) => {
-                                console.log('Peripheral info:', peripheralInfo);
+                                console.log(peripheralInfo)
                                 this.getCollarInfos()
-
                             }).catch((error) => {
                             console.log(error);
                         });
@@ -116,8 +152,8 @@ class DashboardView extends React.Component {
             console.log(error);
         });
     }
-    */
-    }
+
+
 
     hidePopup()
     {
@@ -181,6 +217,7 @@ class DashboardView extends React.Component {
 
 export default Dashboard = createStackNavigator ({
 
+
     Dashboard: {
         screen: DashboardView,
         navigationOptions: globalStyle.navigationOptions
@@ -191,6 +228,10 @@ export default Dashboard = createStackNavigator ({
     },
     ActivityActivity: {
         screen: ActivityActivity,
+        navigationOptions: globalStyle.navigationOptions
+    },
+    HistoricActivity: {
+        screen: HistoricActivity,
         navigationOptions: globalStyle.navigationOptions
     },
     MapActivity: {

@@ -19,16 +19,7 @@ export default class BasicSleep extends React.Component {
 
                 <View style={{alignItems:'center'}}>
                     <View style={globalStyle.graphContainer} >
-                    <YAxis
-                        data={ data }s
-                        contentInset={ contentInset }
-                        svg={{
-                            fill: 'grey',
-                            fontSize: 10,
-                        }}
-                        numberOfTicks={ 10 }
-                        formatLabel={ value => `${value}ºC` }
-                    />
+
                 <AreaChart
                     style={{ height: 200, flex:1 }}
                     data={ data }

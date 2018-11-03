@@ -1,26 +1,31 @@
 import React from 'react'
-import {View, Image, StyleSheet} from 'react-native'
-import ActivityHeader from '../ActivityHeader'
+import {View, ImageBackground, TouchableOpacity, Text} from 'react-native'
+import {NavigationActions} from "react-navigation";
 
-export default class MeetingsActivity extends React.Component {
+export default class Journal extends React.Component
+{
+    goBack() {
+        console.log("Clicked")
+        this.props.navigation.navigate(view,
+            {
+                navigation: this.props.navigation,
+            });
+    }
 
     render()
     {
         return (
-            <View>
-                <ActivityHeader title={"meetings"} navigation={this.props.navigation}/>
-                <View>
-                <Image
-                    style={styles.image}
-                    source={require('../../../Resources/Images/Activities/meetings.png')}/>
-                </View>
-            </View>
+            <ImageBackground style={{ flexGrow: 1,
+                alignSelf: 'stretch',
+                width: null,
+                height: null,
+            }}
+                             source={require("../../../Resources/Images/Activities/journey_details.jpg")}>
+                <TouchableOpacity onPress={() => this.props.navigation.dispatch(NavigationActions.back())}>
+                    <Text style={{margin: 10, color: 'transparent'}}>BACK</Text>
+                </TouchableOpacity>
+            </ImageBackground>
         )
     }
-}
 
-const styles = StyleSheet.create({
-    image: {
-        width: '100%',
-    }
-});
+}

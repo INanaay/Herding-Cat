@@ -408,15 +408,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/3161b3d8cb1e72321238c40d572c9c49e0dc715a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a19d1e469f6c63b79a4317500c533435798e22d5">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_79f63a922f3beb08842686ad4401412d5f13117b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -441,15 +432,6 @@
         revision="26.0.1"
         sha1="5404e66d9d682eb77f1bb24a35605387e68a1c4b">
         <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/dagger-library-shadow-1.6.0_bde5f76f29af22af045f69b8dc38a85e6e00778d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/NANAA/.android/build-cache/a6f5dc3bce413ceaf689c94821bbb79e7b953c29/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fc1b8c760cdedc005fb8408f2a8ffdb09945225b">
-        <dex dex="/home/NANAA/Missions/Herding/android/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/classes_311e3f872b19cd10db96b4d8de7e76b1cb2b9410/classes.dex" />
     </item>
     <item
         is-multidex="true"

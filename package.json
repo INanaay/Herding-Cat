@@ -41,6 +41,7 @@
     "react-native-svg-uri": "^1.2.3",
     "react-native-vector-icons": "^4.6.0",
     "react-navigation": "^2.6.2",
+    "react-timer-mixin": "^0.13.4",
     "utf8": "^3.0.0"
   }
 }

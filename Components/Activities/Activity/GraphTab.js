@@ -2,6 +2,8 @@ import React from 'react'
 import {Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native'
 import {createMaterialTopTabNavigator} from 'react-navigation'
 import globalStyle from '../../../styles'
+import Graphs from './IconsSource'
+
 
 const clickedColor = globalStyle.secondaryColor
 const unClickedColor = '#525152'
@@ -14,7 +16,8 @@ export default class GraphTab extends React.Component {
         this.state = {
             firstButtonColor: clickedColor,
             secondButtonColor: unClickedColor,
-            thirdButtonColor: unClickedColor
+            thirdButtonColor: unClickedColor,
+            displayedGraph: Graphs.graphs.chart1
         }
         this.onFirstButtonPress = this.onFirstButtonPress.bind(this)
         this.onSecondButtonPress = this.onSecondButtonPress.bind(this)
@@ -25,8 +28,11 @@ export default class GraphTab extends React.Component {
         this.setState({
             firstButtonColor: clickedColor,
             secondButtonColor: unClickedColor,
-            thirdButtonColor: unClickedColor
+            thirdButtonColor: unClickedColor,
+            displayedGraph: Graphs.graphs.chart1
+
         })
+
         this.props.callback(1)
 
     }
@@ -35,7 +41,8 @@ export default class GraphTab extends React.Component {
         this.setState({
             firstButtonColor: unClickedColor,
             secondButtonColor: clickedColor,
-            thirdButtonColor: unClickedColor
+            thirdButtonColor: unClickedColor,
+            displayedGraph: Graphs.graphs.chart2
         })
         this.props.callback(2)
     }
@@ -44,12 +51,12 @@ export default class GraphTab extends React.Component {
         this.setState({
             firstButtonColor: unClickedColor,
             secondButtonColor: unClickedColor,
-            thirdButtonColor: clickedColor
+            thirdButtonColor: clickedColor,
+            displayedGraph: Graphs.graphs.chart3
         })
         this.props.callback(3)
 
     }
-
 
     //IMPLEMENT FUNCTION TO RENDER BUTTON
 
@@ -90,7 +97,7 @@ export default class GraphTab extends React.Component {
 
                    </View>
                        <Image style={{flex: 1, height: null, width: '100%'}}
-                           source={require("../../../Resources/Images/activity_barchart.png")}/>
+                           source={this.state.displayedGraph}/>
 
                </View>
 

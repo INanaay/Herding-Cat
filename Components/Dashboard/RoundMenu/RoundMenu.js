@@ -1,11 +1,12 @@
 import React from 'react'
-import {TouchableWithoutFeedback, StyleSheet, Animated, View, Text, TouchableOpacity, Image} from 'react-native'
+import {TouchableWithoutFeedback, StyleSheet, Animated, View, Text, TouchableOpacity, Image, Dimensions} from 'react-native'
 import FontAwesome from '@expo/vector-icons/FontAwesome'
 import Ionicons from '@expo/vector-icons/MaterialIcons'
 import {createStackNavigator} from 'react-navigation'
 import globalStyle from  '../../../styles'
 import Tips from './Tips'
 import MenuIcons from './IconsSource'
+import SvgUri from 'react-native-svg-uri';
 
 
 /*
@@ -20,6 +21,7 @@ const menuSymbols = {
 }
 */
 
+
 export default class RoundMenu extends React.Component {
 
 
@@ -29,7 +31,10 @@ export default class RoundMenu extends React.Component {
         this.state = {
             width: 50,
             height: 50,
-            isOpen: false
+            isOpen: false,
+            buttonPositionRight: 0,
+            buttonPositionBottom: 0,
+            radius:  50 / 2
         }
     }
 
@@ -44,9 +49,12 @@ export default class RoundMenu extends React.Component {
                 }
             ).start()
             this.setState({
-                width: 150,
-                height: 150,
-                isOpen: true
+                width: 250,
+                height: 250,
+                isOpen: true,
+                buttonPositionRight: - 100,
+                buttonPositionBottom: -20,
+                radius: 250 / 2
             })
         }
     }
@@ -96,16 +104,43 @@ export default class RoundMenu extends React.Component {
         this.setState({
             width: 50,
             height: 50,
-            isOpen: false
+            isOpen: false,
+            buttonPositionRight: 0,
+            buttonPositionBottom: 0,
+            radius:  50 / 2
         })
 
     }
 
     displayIcon(iconType)
     {
+
+        let source;
+
+        console.log("Icont type = " + iconType)
+
+        switch (iconType) {
+            case "Social" :
+                source = MenuIcons.icons.social;
+                break;
+            case "Challenges":
+                source = MenuIcons.icons.challenges;
+                break;
+            case "Tips" :
+                source = MenuIcons.icons.tips
+                break;
+            case "Dashboard" :
+                source = MenuIcons.icons.dashboard
+                break;
+            default :
+                break;
+
+        }
+
         if (iconType) {
             return (
-                <Image source={MenuIcons.icons.social} style={{height: 10, width: 10, marginLeft: 10 }}/>
+
+                <Image source={source} style={{height: 10, width: 10, marginLeft: 10 }}/>
             )
         }
     }
@@ -113,10 +148,11 @@ export default class RoundMenu extends React.Component {
     displayOpen()
     {
         return (
-            <View style={{flex: 1, margin: 6, paddingRight: 5, paddingTop: 5, alignItems: 'flex-end', justifyContent: 'space-between'}}>
+            <View style={{flex: 1, margin: 6, marginRight: 55, paddingLeft: 0, paddingTop: 20, alignItems: 'flex-end', justifyContent: 'space-between'}}>
                 {this.displayMenuOption("Social")}
                 {this.displayMenuOption("Challenges")}
                 {this.displayMenuOption("Tips")}
+                {this.displayMenuOption("Dashboard")}
                 <TouchableOpacity
                     onPress={() => this.closeMenu()}>
                     <Ionicons style={{margin: 6, marginBottom: '40%'}} name={"clear"}  size={10} color="#FFF" />
@@ -138,11 +174,11 @@ export default class RoundMenu extends React.Component {
     render() {
         return (
             <TouchableWithoutFeedback
-                style={[styles.button, {width: this.state.width, height: this.state.height}]}
+                style={[styles.button, {}]}
                 onPress={this.spring.bind(this)}
             >
             <Animated.View
-                style={[styles.container, {width: this.state.width, height: this.state.height, transform: [{scale: this.springValue}]}]}>
+                style={[styles.container, {borderRadius: this.state.radius, bottom : this.state.buttonPositionBottom, right: this.state.buttonPositionRight ,width: this.state.width, height: this.state.height, transform: [{scale: this.springValue}]}]}>
                 {this.displayMenuContent()}
             </Animated.View>
             </TouchableWithoutFeedback>
@@ -153,13 +189,10 @@ export default class RoundMenu extends React.Component {
 const styles = StyleSheet.create({
     container: {
         position: 'absolute',
-        right: 0,
-        bottom: 0,
         margin: 10,
         alignItems:'center',
         justifyContent:'center',
         backgroundColor: globalStyle.secondaryColor,
-        borderRadius:100,
     },
     button : {
         alignItems:'center',

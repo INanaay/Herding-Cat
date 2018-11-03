@@ -44,11 +44,11 @@ export default class HistoricActivity extends React.Component {
 
     constructor(props) {
         super(props)
+        this.ref = React.createRef()
         this.state = {
             list: dayliList,
         }
         this.setListData = this.setListData.bind(this)
-
     };
 
 
@@ -77,6 +77,8 @@ export default class HistoricActivity extends React.Component {
         }
     }
 
+
+
     render() {
 
        const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
@@ -85,7 +87,7 @@ export default class HistoricActivity extends React.Component {
             <View style={{backgroundColor: globalStyle.backgroundColor, height: '100%'}}>
             <ActivityHeader title={"history"} navigation={this.props.navigation}/>
                 <View style={{marginTop: 20}} >
-                    <GraphTab callback={this.setListData}/>
+                    <GraphTab ref={this.ref} callback={this.setListData}/>
                 </View>
                 <View>
                 <View style={style.border}>
@@ -94,7 +96,7 @@ export default class HistoricActivity extends React.Component {
                 <ListView
                     style={{height:'50%'}}
                     dataSource={ds.cloneWithRows(this.state.list)}
-                    renderRow={(row, j, k) => <Row info={row} index={parseInt(k, 10)}/>}
+                    renderRow={(row, j, k) => <Row info={row} index={parseInt(k, 10)} />}
                 />
                 </View>
             </View>

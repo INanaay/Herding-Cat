@@ -1,19 +1,28 @@
 import React from 'react'
-import {StyleSheet, View, Text} from 'react-native'
+import {StyleSheet, View, Text, TouchableOpacity} from 'react-native'
 import globalStyle from '../../../styles'
 
 export default class Row extends React.Component{
+
     render() {
 
-        console.log(this.props)
+
+        const index = this.props.index;
+        let color = globalStyle.fontColor;
+        if (index === 0 || index === 1)
+            color = globalStyle.secondaryColor
+
+
         return (
         <View style={style.container}>
             <Text style={style.time}>
                 {this.props.info.time}
             </Text>
-            <Text style={style.date}>
+            <TouchableOpacity onPress={this.props.callback}>
+            <Text style={[style.date, {color: color}]}>
                 {this.props.info.date}
             </Text>
+            </TouchableOpacity>
         </View>
         )
     }

@@ -2,69 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e81c10-706a-4771-8fcb-361c8a199d5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Activities/Activity/IconsSource.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/Stationary.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/Stationary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/ActivityHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/ActivityHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Activities/ComponentHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/ComponentHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Activity/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Activity/Row.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Images/Activities/journey_details.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Images/Activities/journey_details.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Svg/journal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Svg/journal.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_almworks_sqlite4java_sqlite4java_0_282_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_artemzin_rxjava_proguard_rules_1_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_ibm_icu_icu4j_53_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_jakewharton_rxrelay_rxrelay_1_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_polidea_rxandroidble_dagger_library_shadow_1_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_polidea_rxandroidble_rxandroidble_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_ximpleware_vtd_xml_2_11_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_reactivex_rxjava_1_3_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_apache_ant_ant_1_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_apache_maven_maven_ant_tasks_2_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk16_1_46_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_5_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_ow2_asm_asm_util_5_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robolectric_robolectric_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robolectric_robolectric_annotations_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robolectric_robolectric_resources_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robolectric_robolectric_utils_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robolectric_shadows_core_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_robospock_robospock_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_spockframework_spock_core_1_0_groovy_2_4_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/generated/fabric/res/dev19/debug/values/com_crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/generated/fabric/res/dev19/debug/values/com_crashlytics_build_id.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/generated/source/r/dev19/debug/host/exp/exponent/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/generated/source/r/dev19/debug/host/exp/exponent/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/dev19/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/dev19/debug/multi/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/R$xml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/R$xml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDev19DebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/file-input-save-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" afterDir="false" />
@@ -73,23 +43,27 @@
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageInstantRunResourcesDev19Debug/zip-cache/6paGBvMaYfOop3D0LDl351GD+0Y=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-resources/resources-dev19/debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-resources/resources-dev19/debug.ir.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/manifest_keep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/multi-dex/dev19/debug/manifest_keep.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/dev19/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/dev19/debug/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-dev19-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-dev19-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/R$xml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/R$xml.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-dev19-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-dev19-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-timer-mixin/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-timer-mixin/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/TimerMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-timer-mixin/TimerMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/__tests__/TimerMixin-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-timer-mixin/__tests__/TimerMixin-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-timer-mixin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-timer-mixin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,135 +78,75 @@
     <session id="188432237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="jpg" value="7" />
-          <entry key="js" value="103" />
-          <entry key="json" value="1" />
-          <entry key="png" value="3" />
-          <entry key="svg" value="11" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="10" />
+          <entry key="js" value="148" />
+          <entry key="json" value="3" />
+          <entry key="png" value="13" />
+          <entry key="svg" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="10" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="103" />
+          <entry key="Image" value="24" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="148" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SVG" value="11" />
+          <entry key="SVG" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="12974" />
+          <entry key="js" value="17084" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="12974" />
+          <entry key="JavaScript" value="17084" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="93" column="54" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="190" column="6" lean-forward="true" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Map/MapActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/ComponentHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GlobalActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="96" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
+            <state relative-caret-position="164">
+              <caret line="251" column="11" lean-forward="true" selection-start-line="251" selection-start-column="11" selection-end-line="251" selection-end-column="11" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -251,15 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>displayclosed</find>
-      <find>navigatet</find>
-      <find>border</find>
-      <find>dashboard</find>
-      <find>order</find>
-      <find>Icon</find>
-      <find>setste</find>
-      <find>setstate</find>
-      <find>open</find>
       <find>touchable</find>
       <find>pin_vert</find>
       <find>startno</find>
@@ -274,17 +179,31 @@
       <find>right</find>
       <find>blemana</find>
       <find>visible</find>
-      <find>ref</find>
       <find>navigat</find>
       <find>navigate</find>
       <find>panelhe</find>
       <find>navigation.</find>
       <find>mapac</find>
       <find>svg</find>
+      <find>startnotifi</find>
+      <find>icons</find>
+      <find>reading</find>
+      <find>dime</find>
+      <find>dimens</find>
+      <find>ref</find>
+      <find>render</find>
+      <find>this.ref</find>
+      <find>callba</find>
+      <find>Menuico</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -303,37 +222,40 @@
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/roundMenuButton.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenuButton.js" />
         <option value="$PROJECT_DIR$/Components/Activities/Header.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" />
-        <option value="$PROJECT_DIR$/styles.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicInfo.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/Popup/Popup.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicMap.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicMeetings.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicActivity.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" />
         <option value="$PROJECT_DIR$/Components/Activities/ActivityHeader.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js" />
-        <option value="$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" />
-        <option value="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" />
         <option value="$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js" />
         <option value="$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js" />
         <option value="$PROJECT_DIR$/Components/Activities/Activity/Stationary.js" />
         <option value="$PROJECT_DIR$/Components/Activities/ComponentHeader.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/BluetoothListener.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/BasicSleep.js" />
+        <option value="$PROJECT_DIR$/styles.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Map/MapActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/BasicWeight.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Activity/IconsSource.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Activity/Row.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js" />
+        <option value="$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js" />
         <option value="$PROJECT_DIR$/Components/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js" />
+        <option value="$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js" />
       </list>
     </option>
   </component>
@@ -360,6 +282,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
     <option name="y" value="27" />
     <option name="width" value="960" />
     <option name="height" value="1053" />
@@ -370,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,48 +315,39 @@
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Herding" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
-              <item name="Activity" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Herding" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="PawMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
               <item name="Herding" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Herding" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Herding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Herding" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Tek3/DEV_epicture_2018/epicture" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Svg" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Resources/Icons" />
     </key>
@@ -450,6 +363,94 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -502,35 +503,52 @@
       <workItem from="1539970889772" duration="2860000" />
       <workItem from="1540025835451" duration="3485000" />
       <workItem from="1540209225730" duration="8890000" />
-      <workItem from="1540282391786" duration="2265000" />
+      <workItem from="1540282391786" duration="3375000" />
+      <workItem from="1540296514983" duration="9436000" />
+      <workItem from="1540385413008" duration="53000" />
+      <workItem from="1540399165557" duration="692000" />
+      <workItem from="1540567035310" duration="3011000" />
+      <workItem from="1540818062180" duration="162000" />
+      <workItem from="1540890771170" duration="16000" />
+      <workItem from="1540899087934" duration="17000" />
+      <workItem from="1540904115698" duration="669000" />
+      <workItem from="1540906900883" duration="1058000" />
+      <workItem from="1540978938522" duration="1692000" />
+      <workItem from="1541250856259" duration="5636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221523000" />
+    <option name="totallyTimeSpent" value="252104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20464136" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12341772" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,190 +557,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js</url>
-          <line>58</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/styles.js</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Components/Dashboard/Popup/Popup.js</url>
-          <line>138</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Components/Dashboard/Popup/Popup.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Components/Activities/ActivityHeader.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-vector-icons/dist/lib/create-icon-set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6718" selection-start-column="6718" selection-end-column="6718" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8593" column="17" selection-start-line="8593" selection-start-column="17" selection-end-line="8593" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="34" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-sliding-up-down-panels/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="115" column="53" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/Row.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/host/exp/exponent/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/ProfilePicture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSleep.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicWeight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/batterie.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/back.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/alerte.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/journal.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/ActivityHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/tempView.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/fermer_notif.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/menu_patte_verte.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/menu_dashboard.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/menu_patte.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicMeetings.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,104 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/localisation.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Svg/menu_rond_burger.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Daily_Journal.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/activity_barchart.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/sleep.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/sleep_details.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/Popup/Popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="99" column="27" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/journey_details.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Daily_JournalHD.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/speed_details.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="96" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GlobalActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,44 +586,283 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js">
+    <entry file="file://$PROJECT_DIR$/Components/Activities/ComponentHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/Map/MapActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/SocialActivity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Activities/ComponentHeader.js">
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BluetoothListener.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="372">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-ble-manager/BleManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSleep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/DashboardComponentHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicSpeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/ScrollResponder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="463" column="35" selection-start-line="463" selection-start-column="35" selection-end-line="463" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/20171028_191941_006.jpeg" />
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/meetings.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/activity_barchart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Daily_Journal.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Daily_JournalHD.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/HectorPP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/popupMap.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/speed_details.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/journey_details.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/map.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Images/Activities/sleep.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/DayAllocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Sleep/SleepActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Speed/SpeedActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Icons/alerts.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Icons/journal.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Meetings/MeetingsActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GlobalActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/BasicWeight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Svg/journal.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="8600" column="17" selection-start-line="8600" selection-start-column="17" selection-end-line="8600" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/Row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/GraphTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/HistoricActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="93" column="54" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/PawMenu/PawMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="62" column="33" selection-start-line="62" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/ActivityActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Activity/IconsSource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/IconsSource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/PawMenu/Journal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Activities/Map/MapActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Challenges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/RoundMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="150" column="38" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Social.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Dashboard/RoundMenu/Tips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Dashboard/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="190" column="6" lean-forward="true" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        <state relative-caret-position="164">
+          <caret line="251" column="11" lean-forward="true" selection-start-line="251" selection-start-column="11" selection-end-line="251" selection-end-column="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
