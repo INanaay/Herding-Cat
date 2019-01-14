@@ -20,7 +20,7 @@ export default class Journal extends React.Component
                 width: null,
                 height: null,
             }}
-                             source={require("../../../Resources/Images/Activities/journey_details.jpg")}>
+                             source={require("../../../Resources/Images/Activities/meetings_details.jpg")}>
                 <TouchableOpacity onPress={() => this.props.navigation.dispatch(NavigationActions.back())}>
                     <Text style={{margin: 10, color: 'transparent'}}>BACK</Text>
                 </TouchableOpacity>

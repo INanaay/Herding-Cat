@@ -36,7 +36,7 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/NANAA/.android/build-
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:13:20-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:14:3-77
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:25:5-79
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:25:5-79
 MERGED from [com.facebook.android:audience-network-sdk:4.26.1] /home/NANAA/.android/build-cache/177050951827b22a18f63f2f2a9c72b2da6d2b3d/output/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /home/NANAA/.android/build-cache/5ca84d5963efcb77f480de0d589f225064f49ff2/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /home/NANAA/.android/build-cache/076a42cddba6f41e063e044bcc4cae748e51d3a9/output/AndroidManifest.xml:21:5-78
@@ -50,7 +50,7 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/NANAA/.android/build-
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:14:20-74
 uses-permission#android.permission.INTERNET
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:15:3-65
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:19:5-67
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:19:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/NANAA/.android/build-cache/c0266c5c145c328364214d153331f45f32ce2508/output/AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /home/NANAA/.android/build-cache/9c7916fbc37c2414588f5e3906198c745d493ee1/output/AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/NANAA/.android/build-cache/cabbfe9df8ccb749e9736071fcc2c8316dfdc89a/output/AndroidManifest.xml:9:5-67
@@ -71,20 +71,20 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/NANAA/.android/build-
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:15:20-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:16:3-76
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:21:5-78
-MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/69fb681aa1418f764954b091ff9cef1d0f980f26/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/AndroidManifest.xml:11:5-78
-MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:21:5-78
+MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/9551513c0c6c6b6163b0cc532b871a96743a69a0/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/1e3e61056b92b31094961a7fda4a31313dbfca7c/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/d84b71cdc3fd8ce46bdcc4bfd2a5b3e5169c9f26/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/edb1b8b77ceecbc647385afcb71ab105007f84cf/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/a3f3118ace946e69ab108e05f41ddae3f715bafa/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/2b714ea612e4733bc2a515b3a10719b9d7801e8b/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/1fa9434f0da869360d983f8adb16c15ae8406853/output/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:16:20-73
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:17:3-66
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:22:5-68
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:22:5-68
 MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /home/NANAA/.android/build-cache/5ca84d5963efcb77f480de0d589f225064f49ff2/output/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /home/NANAA/.android/build-cache/076a42cddba6f41e063e044bcc4cae748e51d3a9/output/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/NANAA/.android/build-cache/40bf45e4136b505bf3c27a469e0fb1b51f6722ae/output/AndroidManifest.xml:22:5-67
@@ -116,12 +116,12 @@ MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/NANAA/.android/build-
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:23:7-80
 uses-permission#android.permission.MANAGE_DOCUMENTS
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:27:3-73
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:26:5-75
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:26:5-75
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:27:20-70
 uses-permission#android.permission.READ_INTERNAL_STORAGE
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:28:3-78
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:24:5-80
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:24:5-80
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:28:20-75
 uses-permission#android.permission.READ_PHONE_STATE
@@ -130,7 +130,7 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:29:20-70
 uses-permission#android.permission.USE_FINGERPRINT
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:30:3-72
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:27:5-74
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:27:5-74
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:30:20-69
 uses-permission#android.permission.VIBRATE
@@ -139,7 +139,7 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:31:20-61
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:32:3-86
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:20:5-88
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:20:5-88
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:32:20-83
 uses-permission#android.permission.BLUETOOTH
@@ -159,40 +159,40 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:38:3-79
 MERGED from [android:react-native-ble-manager:unspecified] /home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/default/AndroidManifest.xml:9:5-81
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:37:5-81
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:37:5-81
 MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/NANAA/.android/build-cache/208ab0565b5e5bfd59b758f0b89a9f3d29db44dd/output/AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:38:20-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:39:3-77
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:38:5-79
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:38:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/NANAA/.android/build-cache/208ab0565b5e5bfd59b758f0b89a9f3d29db44dd/output/AndroidManifest.xml:14:5-79
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:39:20-74
 uses-permission#android.permission.CAMERA
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:40:3-63
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:36:5-65
-MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/AndroidManifest.xml:23:5-65
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:36:5-65
+MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/e53756f61bdad315bf9eee60541647fd1fa6e0e8/output/AndroidManifest.xml:23:5-65
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:40:20-60
 uses-permission#android.permission.READ_CONTACTS
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:41:3-70
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:31:5-72
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:31:5-72
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:41:20-67
 uses-permission#android.permission.READ_CALENDAR
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:42:3-70
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:32:5-72
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:32:5-72
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:42:20-67
 uses-permission#android.permission.WRITE_CALENDAR
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:43:3-71
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:33:5-73
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:33:5-73
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:43:20-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:44:3-78
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:34:5-80
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:34:5-80
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:44:20-75
 uses-permission#android.permission.RECORD_AUDIO
@@ -201,7 +201,7 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:45:20-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:46:3-79
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:35:5-81
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:35:5-81
 	android:name
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:46:20-76
 uses-permission#android.permission.WRITE_SETTINGS
@@ -217,15 +217,15 @@ MERGED from [com.google.android.gms:play-services-maps:9.8.0] /home/NANAA/.andro
 		ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:52:50-74
 application
 ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml:54:3-275:17
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:68:5-84:19
-MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/69fb681aa1418f764954b091ff9cef1d0f980f26/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/AndroidManifest.xml:13:5-20
-MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:68:5-84:19
+MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/9551513c0c6c6b6163b0cc532b871a96743a69a0/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/1e3e61056b92b31094961a7fda4a31313dbfca7c/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/d84b71cdc3fd8ce46bdcc4bfd2a5b3e5169c9f26/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/edb1b8b77ceecbc647385afcb71ab105007f84cf/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/a3f3118ace946e69ab108e05f41ddae3f715bafa/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/2b714ea612e4733bc2a515b3a10719b9d7801e8b/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/1fa9434f0da869360d983f8adb16c15ae8406853/output/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /home/NANAA/.android/build-cache/bec0278f781855d65fd66ffceab4d8f2fe907d1c/output/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /home/NANAA/.android/build-cache/0d5f50f1053d868ab7ec57f8fc4ec29d309573c7/output/AndroidManifest.xml:2:3-17
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/NANAA/.android/build-cache/c0266c5c145c328364214d153331f45f32ce2508/output/AndroidManifest.xml:11:5-20
@@ -265,7 +265,7 @@ MERGED from [com.airbnb.android:lottie:2.2.0] /home/NANAA/.android/build-cache/8
 MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /home/NANAA/.android/build-cache/d3f3aa4b35529d6db64b4bf141777ad8f7f63f18/output/AndroidManifest.xml:11:5-20
 MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/NANAA/.android/build-cache/208ab0565b5e5bfd59b758f0b89a9f3d29db44dd/output/AndroidManifest.xml:18:5-28:19
 MERGED from [com.android.support:exifinterface:26.0.1] /home/NANAA/.android/build-cache/7596c3f497f5cc460a8aef3a676f6532360545bd/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/AndroidManifest.xml:32:5-20
+MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/e53756f61bdad315bf9eee60541647fd1fa6e0e8/output/AndroidManifest.xml:32:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.1] /home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/NANAA/.android/build-cache/477f9a35797ffa5e5f4e22eaadc5142a889162f4/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/NANAA/.android/build-cache/0414c74f3ff8ee61cf4a83cc30038e6c72b822bc/output/AndroidManifest.xml:22:5-26:19
@@ -604,17 +604,17 @@ ADDED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 uses-sdk
 INJECTED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [android:react-native-ble-manager:unspecified] /home/NANAA/Missions/Herding/node_modules/react-native-ble-manager/android/build/intermediates/bundles/default/AndroidManifest.xml:5:5-44
-MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.1] /home/NANAA/.android/build-cache/5338895a11ed69757525ef1ca385f5ce105e2b17/output/AndroidManifest.xml:18:5-42
-MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:27.0.0] /home/NANAA/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /home/NANAA/.android/build-cache/f09a63981b12828625ab8b06b4030efaa1133b01/output/AndroidManifest.xml:5:5-7:41
-MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/16d2b9d42ce68d8d4561c8c1ed5106475a098d7a/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/0fb2b0cdda0a78ff7e3c34901d00757f953abd54/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/fab6252b862290834dc8c6244ae886586bad02e5/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/1acbf4d081909349a839bc03c5d4d0d7072d6e33/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/69fb681aa1418f764954b091ff9cef1d0f980f26/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/1b3e0fdd97cc1e5f92ad0f553b4303d7e9cdbae1/output/AndroidManifest.xml:7:5-9:41
-MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/69f97d9c06f3277abb26550d54614a51318ac850/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi27_0_0:1.0.0] /home/NANAA/.android/build-cache/9551513c0c6c6b6163b0cc532b871a96743a69a0/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi26_0_0:1.0.0] /home/NANAA/.android/build-cache/1e3e61056b92b31094961a7fda4a31313dbfca7c/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /home/NANAA/.android/build-cache/d84b71cdc3fd8ce46bdcc4bfd2a5b3e5169c9f26/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /home/NANAA/.android/build-cache/edb1b8b77ceecbc647385afcb71ab105007f84cf/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /home/NANAA/.android/build-cache/a3f3118ace946e69ab108e05f41ddae3f715bafa/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /home/NANAA/.android/build-cache/2b714ea612e4733bc2a515b3a10719b9d7801e8b/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /home/NANAA/.android/build-cache/1fa9434f0da869360d983f8adb16c15ae8406853/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/NANAA/.android/build-cache/96a031d3b42ca165f99b03114e1bf9f5c8c057b5/output/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.0.1] /home/NANAA/.android/build-cache/1e2bdbdb6e5bf14b3b763255cb4ed808ddcf2ebc/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.0.1] /home/NANAA/.android/build-cache/3346c1da18a0f6485341427dfe5683656b7a9ba8/output/AndroidManifest.xml:5:5-7:41
@@ -625,7 +625,7 @@ MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /home/NANAA/.android/build
 MERGED from [com.facebook.fresco:webpsupport:1.0.1] /home/NANAA/.android/build-cache/cf551f004e63277b330a61fcd212fd7fb356603d/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /home/NANAA/.android/build-cache/36c66a28015bfd5f05411938581747231ae8c784/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.0.1] /home/NANAA/.android/build-cache/379f904f6cfb3e78aaccce94a5ab8fd93cebe3d3/output/AndroidManifest.xml:5:5-7:41
-MERGED from [expolib_v1.com.facebook.fresco:expolib_v1-imagepipeline-okhttp3:1.0.1] /home/NANAA/.android/build-cache/1651d7e5e17e7b6d98c4fc65318298c693c43940/output/AndroidManifest.xml:5:5-7:41
+MERGED from [expolib_v1.com.facebook.fresco:expolib_v1-imagepipeline-okhttp3:1.0.1] /home/NANAA/.android/build-cache/bcdc9a8602475a6f6a0b336012af4893ad31e2c6/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] /home/NANAA/.android/build-cache/bec0278f781855d65fd66ffceab4d8f2fe907d1c/output/AndroidManifest.xml:2:3-70
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/NANAA/.android/build-cache/c0266c5c145c328364214d153331f45f32ce2508/output/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /home/NANAA/.android/build-cache/9c7916fbc37c2414588f5e3906198c745d493ee1/output/AndroidManifest.xml:7:5-43
@@ -674,7 +674,7 @@ MERGED from [io.branch.sdk.android:library:2.6.1] /home/NANAA/.android/build-cac
 MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /home/NANAA/.android/build-cache/d3f3aa4b35529d6db64b4bf141777ad8f7f63f18/output/AndroidManifest.xml:7:5-9:41
 MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/NANAA/.android/build-cache/208ab0565b5e5bfd59b758f0b89a9f3d29db44dd/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:exifinterface:26.0.1] /home/NANAA/.android/build-cache/7596c3f497f5cc460a8aef3a676f6532360545bd/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/e53756f61bdad315bf9eee60541647fd1fa6e0e8/output/AndroidManifest.xml:19:5-21:41
 MERGED from [com.android.support:appcompat-v7:26.0.1] /home/NANAA/.android/build-cache/0ac0a2091af45cbad404c4189afb822ac6d9b79c/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.1] /home/NANAA/.android/build-cache/477f9a35797ffa5e5f4e22eaadc5142a889162f4/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.1] /home/NANAA/.android/build-cache/0414c74f3ff8ee61cf4a83cc30038e6c72b822bc/output/AndroidManifest.xml:20:5-44
@@ -703,99 +703,99 @@ MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1] /home/N
 		INJECTED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/NANAA/Missions/Herding/android/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:11:5-17:24
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:11:5-17:24
 	android:largeScreens
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:13:9-36
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:13:9-36
 	android:smallScreens
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:15:9-36
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:15:9-36
 	android:normalScreens
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:14:9-37
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:14:9-37
 	android:xlargeScreens
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:16:9-37
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:16:9-37
 	android:anyDensity
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:12:9-34
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:12:9-34
 uses-permission#host.exp.exponent.permission.C2D_MESSAGE
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:23:5-80
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:23:22-77
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:23:22-77
 uses-feature#android.hardware.camera
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:40:5-42:36
-MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/AndroidManifest.xml:25:5-27:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:40:5-42:36
+MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/e53756f61bdad315bf9eee60541647fd1fa6e0e8/output/AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:42:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:42:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:41:9-47
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:41:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:43:5-45:36
-MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/67822798170951b47ece2b6c41db66e73e9f9fb4/output/AndroidManifest.xml:28:5-30:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:43:5-45:36
+MERGED from [com.google.android:cameraview:1.0.0] /home/NANAA/.android/build-cache/e53756f61bdad315bf9eee60541647fd1fa6e0e8/output/AndroidManifest.xml:28:5-30:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:45:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:45:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:44:9-57
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:44:9-57
 uses-feature#android.hardware.location
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:46:5-48:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:46:5-48:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:48:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:47:9-49
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:47:9-49
 uses-feature#android.hardware.location.gps
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:49:5-51:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:49:5-51:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:51:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:51:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:50:9-53
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:50:9-53
 uses-feature#android.hardware.location.network
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:52:5-54:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:52:5-54:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:54:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:54:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:53:9-57
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:53:9-57
 uses-feature#android.hardware.wifi
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:55:5-57:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:55:5-57:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:57:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:57:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:56:9-45
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:56:9-45
 uses-feature#android.hardware.microphone
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:58:5-60:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:58:5-60:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:60:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:60:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:59:9-51
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:59:9-51
 uses-feature#android.hardware.telephony
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:61:5-63:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:61:5-63:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:63:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:63:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:62:9-50
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:62:9-50
 uses-feature#android.hardware.bluetooth
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:64:5-66:36
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:64:5-66:36
 	android:required
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:66:9-33
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:66:9-33
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:65:9-50
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:65:9-50
 receiver#host.exp.exponent.notifications.ScheduledNotificationReceiver
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:71:9-73:40
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:71:9-73:40
 	android:exported
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:73:13-37
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:72:13-89
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:72:13-89
 provider#android.support.v4.content.FileProvider
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:75:9-83:20
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:75:9-83:20
 	android:authorities
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:77:13-60
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:77:13-60
 	android:grantUriPermissions
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:79:13-47
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:79:13-47
 	android:exported
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:78:13-37
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:76:13-67
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:76:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:80:13-82:58
+ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:80:13-82:58
 	android:resource
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:82:17-55
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:82:17-55
 	android:name
-		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/79288f8761843829858f5066735661a23de98d1e/output/AndroidManifest.xml:81:17-67
+		ADDED from [host.exp.exponent:expoview:27.0.0] /home/NANAA/.android/build-cache/fab130992e3775376b0263f6aff03626facc7f42/output/AndroidManifest.xml:81:17-67
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:4.28.0] /home/NANAA/.android/build-cache/528e5834d39dfd56476302cd9734f246ccfcddeb/output/AndroidManifest.xml:33:9-71
 	android:name

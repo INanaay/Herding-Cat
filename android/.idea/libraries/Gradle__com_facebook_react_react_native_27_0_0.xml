@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native-27.0.0">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/libs/infer-annotations-4.0.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/8b3172e3d88f68b878aba377eaf5d7a44d35b293/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/jars/libs/infer-annotations-4.0.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c898268da6c33d7375f634d6c9a109b872346d42/output/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/maven/com/facebook/react/react-native/27.0.0/react-native-27.0.0-javadoc.jar!/" />

@@ -859,7 +859,7 @@
     <string name="catalyst_report_button" project="catalyst" translatable="false">Report</string>
     <string name="catalyst_settings" project="catalyst" translatable="false">Dev Settings</string>
     <string name="catalyst_settings_title" project="catalyst" translatable="false">Catalyst Dev Settings</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">bd27bbe6-d230-4e2b-9516-bde47be34534</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">8d468bf7-7989-4ab0-9d87-d33c67498bca</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>

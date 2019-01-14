@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, ImageBackground, TouchableOpacity, Text} from 'react-native'
+import {View, ImageBackground, TouchableOpacity, Text, Image} from 'react-native'
 import {NavigationActions} from "react-navigation";
 
 export default class Journal extends React.Component {
@@ -21,7 +21,7 @@ export default class Journal extends React.Component {
             }}
                              source={require("../../../Resources/Images/Activities/Social.png")}>
                 <TouchableOpacity onPress={() => this.props.navigation.dispatch(NavigationActions.back())}>
-                    <Text style={{margin: 10, color: 'transparent'}}>BACK</Text>
+                    <Image source={require("../../../Resources/Icons/patte_blanche.png")} style={{width: 35, height: 35, resizeMode: 'contain', margin: 20}}/>
                 </TouchableOpacity>
             </ImageBackground>
         )

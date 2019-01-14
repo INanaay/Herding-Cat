@@ -4,7 +4,9 @@
       <root url="file://$USER_HOME$/.android/build-cache/66165d60dc8bf6fd6f4b2fe06e41fb1ce7b90990/output/res" />
       <root url="jar://$USER_HOME$/.android/build-cache/66165d60dc8bf6fd6f4b2fe06e41fb1ce7b90990/output/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/beta/1.1.4/f2c15556c2b5ca24326609b650dccd9dde16c9fc/beta-1.1.4-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>

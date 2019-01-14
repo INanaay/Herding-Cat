@@ -6,8 +6,6 @@ import {createStackNavigator} from 'react-navigation'
 import globalStyle from  '../../../styles'
 import Tips from './Tips'
 import MenuIcons from './IconsSource'
-import SvgUri from 'react-native-svg-uri';
-
 
 /*
 
@@ -71,7 +69,8 @@ export default class RoundMenu extends React.Component {
     displayClosed() {
         return (
 
-                <FontAwesome name={"bars"} size={20} color="#FFF"/>
+
+            <Image source={require("../../../Resources/Icons/menu_burger.png")} style={{height: 10, width: 20}}/>
 
         )
     }
@@ -140,7 +139,7 @@ export default class RoundMenu extends React.Component {
         if (iconType) {
             return (
 
-                <Image source={source} style={{height: 10, width: 10, marginLeft: 10 }}/>
+                <Image source={source} style={{height: 20, width: 20, marginLeft: 5, resizeMode: 'contain' }}/>
             )
         }
     }
@@ -148,17 +147,15 @@ export default class RoundMenu extends React.Component {
     displayOpen()
     {
         return (
-            <View style={{flex: 1, margin: 6, marginRight: 55, paddingLeft: 0, paddingTop: 20, alignItems: 'flex-end', justifyContent: 'space-between'}}>
+            <View style={{flex: 1, margin: 6, marginRight: 55, paddingLeft: 0, paddingTop: 9, alignItems: 'flex-end', justifyContent: 'space-between'}}>
                 {this.displayMenuOption("Social")}
                 {this.displayMenuOption("Challenges")}
                 {this.displayMenuOption("Tips")}
                 {this.displayMenuOption("Dashboard")}
                 <TouchableOpacity
                     onPress={() => this.closeMenu()}>
-                    <Ionicons style={{margin: 6, marginBottom: '40%'}} name={"clear"}  size={10} color="#FFF" />
+                    <Ionicons style={{margin: 6, marginRight: 10, marginBottom: 200, paddingBottom: 20}} name={"clear"}  size={15} color="#FFF" />
                 </TouchableOpacity>
-
-
             </View>
 
         )

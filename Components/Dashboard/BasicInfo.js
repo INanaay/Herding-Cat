@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
+import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native'
 import globalStyle from '../../styles'
 
 class InfoCell extends React.Component {
@@ -32,6 +32,37 @@ class InfoCell extends React.Component {
     }
 }
 
+class MatesMetCell extends React.Component {
+
+    navigateTo() {
+        console.log("Yo")
+        this.props.navigation.navigate(this.props.detailedActivity,
+            {
+                navigation: this.props.navigation,
+            });
+    }
+
+
+
+    render() {
+        let isBorder = this.props.border === true ? {borderRightWidth: globalStyle.borderWidth} : {borderRightWidth: 0}
+
+        return (
+            <View style={[style.cellContainer, isBorder]}>
+                <TouchableOpacity
+                    onPress={() => this.navigateTo(this.props.detailedActivity)}
+                >
+                    <View style={style.touchableContainer}>
+                        <Text style={style.valueText}>{this.props.value}</Text>
+                        <Text style={style.informatonText}>{this.props.info}</Text>
+                    </View>
+                </TouchableOpacity>
+                <Image source={require("../../Resources/Icons/notification.png")} style={style.notification}/>
+            </View>
+        )
+    }
+}
+
 
 
 export default class BasicInfo extends React.Component {
@@ -55,7 +86,7 @@ export default class BasicInfo extends React.Component {
             <View style={{flex: 1, flexDirection: 'column'}}>
                 <View style={[style.rowContainer, globalStyle.dashboardBorder]}>
                     <InfoCell value={calculateDistance(this.props.loaded, this.props.distance)} info={"KM TRAVELED"} border={true} detailedActivity={"MapActivity"} navigation={this.props.navigation}/>
-                    <InfoCell value={3} info={"MATES MET"} detailedActivity={"MeetingsActivity"} navigation={this.props.navigation}/>
+                    <MatesMetCell value={3} info={"MATES MET"} detailedActivity={"MeetingsActivity"} navigation={this.props.navigation}/>
                 </View>
                 <View style={style.rowContainer}>
                     <InfoCell value={"12h45"} info={"SLEPT"} border={true} detailedActivity={"SleepActivity"} navigation={this.props.navigation}/>
@@ -98,6 +129,13 @@ const style = StyleSheet.create({
         color: '#FFF',
         marginBottom: 10,
 
+    },
+    notification: {
+        position: 'absolute',
+        height: 50,
+        width: 50,
+        left: 90,
+        top: 10
     }
 })
 
