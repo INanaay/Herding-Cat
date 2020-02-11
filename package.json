@@ -21,7 +21,7 @@
   "dependencies": {
     "@expo/vector-icons": "^6.3.1",
     "AsyncStorage": "^0.1.5",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.26.0",
     "buffer": "^5.2.0",
     "convert-string": "^0.1.0",
